@@ -162,7 +162,7 @@
 	
 /* Background of the Button 	 */
 	div.vector-dropdown.vector-main-menu-dropdown.vector-button-flush-left.vector-button-flush-right{
-		color : red !important ; 
+		color : #F00 !important ; 
 		background : #3C3836 !important ; 
 		border-radius: 3rem !important ;
 	}
@@ -267,9 +267,51 @@
 /*Side bar styles  for bg  	 */
 	.vector-pinned-container {
     background-color: #16181A  !important;
-    padding: 16px 16px;
- 	color : red !important  ; 
+
+
 border-radius: 1rem !important ; 
+}
+	
+	
+	
+/*Side bar drop down  background icon  	 */
+	span.vector-icon.vector-icon--x-small.mw-ui-icon-wikimedia-expand{
+	
+		background-color :  #504945 !important ; 
+		border-radius: 3px !important ; 
+	}
+	
+	
+	
+/*Left side bar lower gradient removed   */
+		div.vector-sticky-pinned-container::after {
+
+			color : red !important  ; 
+			fill : red !important ; 
+			background-image: none !important ;
+
+}
+
+/* Top side bar 	 */
+	.vector-toc .vector-toc-list-item-active > .vector-toc-link .vector-toc-text, .vector-toc .vector-toc-level-1-active:not(.vector-toc-list-item-expanded) > .vector-toc-link .vector-toc-text, .vector-toc .vector-toc-list-item-active.vector-toc-level-1-active > .vector-toc-link .vector-toc-text{
+		color : #79740E !important ; 
+	}
+	
+/* 	Side bar styles  */
+	.vector-toc .vector-toc-text {
+   color : #FB4934 !important ;
+		
+		text-decoration:  dotted  !important ; 
+}
+	
+	
+	
+	
+	
+		.vector-toc .vector-toc-text:hover{
+   color : #FB4934 !important ;
+		
+		 text-decoration:  #EBDBB2 underline !important ; 
 }
 	
 	
@@ -287,18 +329,7 @@ border-radius: 1rem !important ;
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+/* 	Mann Page background color  */
 	
 	.mw-page-container {
     min-width: 31.25em;
@@ -322,8 +353,9 @@ border-radius: 1rem !important ;
 /* Front pages Joe Rogan Experience	 */
 	h1{
 		
-		color : red !important ; 
-		font-family: "Chivo Mono" , monospace !important ; 
+		color : #79740E !important ; 
+		font-family: "Chivo" ,  !important ; 
+		font-weight: 800 !important ;
 	}
 	
 	
