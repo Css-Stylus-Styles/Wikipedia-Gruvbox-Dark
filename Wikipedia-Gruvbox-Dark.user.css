@@ -188,8 +188,8 @@
 /* Green Background for the input area 	 */
 	input.cdx-text-input__input{
 	color : #FFD29C !important ; 
-		background-color:  #9D0006 !important ; 
-		border: solid #D5C4A1 !important ; 
+		background-color:  #1D1B1A !important ; 
+		border: solid #79740E !important ; 
 		border-width: 0.1px !important ; 
 	border-radius: 12rem !important ; 
 	}
@@ -200,7 +200,7 @@
 	input::placeholder{
 		
 	font-style :italic !important ;
-	color : #F57D26 !important ; 
+	color : #AF3A03 !important ; 
 	font-size: 0.9rem !important ; 
 	}
 	
@@ -219,9 +219,9 @@
 /*Search Button on Top of Wikipedia  	 */
 	.cdx-search-input__end-button.cdx-button {
 		font-weight: 500 !important  ; 
-    background-color: #22432F !important;
-    color: #FFD29C !important;
-    border-color: #FABD2F;
+    background-color: #282828 !important;
+    color: #D5C4A1 !important;
+    border-color: #79740E;
 		border-radius: 2rem !important ; 
 }
 	
@@ -266,7 +266,7 @@
 	
 /*Side bar styles  for bg  	 */
 	.vector-pinned-container {
-    background-color: #16181A  !important;
+    background-color: #161614  !important;
 
 
 border-radius: 1rem !important ; 
@@ -305,11 +305,9 @@ border-radius: 1rem !important ;
 }
 	
 	
-	
-	
-	
+/* Side bar Hover 	 */
 		.vector-toc .vector-toc-text:hover{
-   color : #FB4934 !important ;
+   color : #B8BB26 !important ;
 		
 		 text-decoration:  #EBDBB2 underline !important ; 
 }
@@ -341,11 +339,67 @@ border-radius: 1rem !important ;
     padding-top: 0.05px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    background-color: #1A1B1D !important;
+		 background-color: #1A1A1A !important;
+/*     background-color: #1A1B1D !important; */
 }
 	
 	
 	
+	
+	
+	
+	
+	
+	
+/* 	span{
+		color : #FE8019 !important ; 
+	} */
+	
+	
+	
+/* Article talk and other buttons	 */
+	.vector-menu-tabs .mw-list-item.vector-tab-noicon > a, .vector-page-toolbar-container .vector-dropdown.vector-tab-noicon > a, .vector-menu-tabs .mw-list-item .vector-dropdown-label, .vector-page-toolbar-container .vector-dropdown .vector-dropdown-label {
+    color  : #928374 !important  ; 
+}
+	
+	
+/* From Wikipedia the Free encyclopedia text 	 */
+	div#siteSub{
+		color : #665C54 !important ; 
+	} 
+	
+	
+	
+/* 	Bold Text  */
+/* Text that is bold 	 */
+	b{
+		color : #B16286 !important ; 
+	}
+	
+/* Paragraphs , text 	 */
+	p {
+		color : #FFD29C !important ; 
+	}
+	
+	
+	
+	
+	
+	
+/* 	Links  */
+	a {
+		color : #FB4934 !important ; 
+	}
+	
+	
+	a:hover{
+		color : #B8BB26 !important ; 
+		text-decoration-color: #B8BB26 !important; 
+	}
+	
+	a:visited{
+		color : #8EC07C !important ; 
+	}
 	
 	
 	
