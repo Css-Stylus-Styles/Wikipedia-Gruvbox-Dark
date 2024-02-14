@@ -148,6 +148,218 @@
 	}
 	
 
+	
+	
+/* Header 	 */
+	
+/* Header -> Header Top styles 	 */
+	header.vector-header.mw-header{
+
+		background : #282828 !important ; 
+	}
+
+
+	
+/* Background of the Button 	 */
+	div.vector-dropdown.vector-main-menu-dropdown.vector-button-flush-left.vector-button-flush-right{
+		color : red !important ; 
+		background : #3C3836 !important ; 
+		border-radius: 3rem !important ;
+	}
+	
+	a.mw-logo{
+		background-color  : #3C3836 !important ; 
+		border-radius: 2rem !important ; 
+	}
+	
+	
+/*Wikipedia  	 */
+/* 	img.mw-logo-wordmark{
+		background: #282828 !important ; 
+	} */
+	
+	
+
+
+	
+	
+	
+/* 	Input placehodler */
+/* Green Background for the input area 	 */
+	input.cdx-text-input__input{
+	color : #FFD29C !important ; 
+		background-color:  #9D0006 !important ; 
+		border: solid #D5C4A1 !important ; 
+		border-width: 0.1px !important ; 
+	border-radius: 12rem !important ; 
+	}
+	
+	
+	
+/* Search Wikipedia text 	 */
+	input::placeholder{
+		
+	font-style :italic !important ;
+	color : #F57D26 !important ; 
+	font-size: 0.9rem !important ; 
+	}
+	
+	
+	
+	
+/* 	Ugly white BG at the back  */
+	.cdx-search-input--has-end-button{
+		border: none  !important ; 
+		 background : none !important ; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+	
+	
+/*Search Button on Top of Wikipedia  	 */
+	.cdx-search-input__end-button.cdx-button {
+		font-weight: 500 !important  ; 
+    background-color: #22432F !important;
+    color: #FFD29C !important;
+    border-color: #FABD2F;
+		border-radius: 2rem !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
+/*Left bar styles  	 */
+	
+/*Contents  	 */
+	h2.vector-pinnable-header-label {
+ 
+		color : #FFD29C !important ; 
+		
+		
+		 font-size: 0.8rem !important;
+    border-radius: 1rem !important;
+		
+}
+	
+	
+	
+	
+/*Hide button  	 */
+	.vector-pinnable-header-toggle-button {
+    display: none;
+    border: 0;
+  
+		font-family: "chivo" , monospace !important ; 
+    background-color: #38694B;
+    color: #FFD29C;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.8rem;
+    border-radius: 1rem !important;
+}
+	
+	
+	
+/*Side bar styles  for bg  	 */
+	.vector-pinned-container {
+    background-color: #16181A  !important;
+    padding: 16px 16px;
+ 	color : red !important  ; 
+border-radius: 1rem !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.mw-page-container {
+    min-width: 31.25em;
+    max-width: 99.75rem;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+    padding-top: 0.05px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #1A1B1D !important;
+}
+	
+	
+	
+	
+	
+	
+	
+/* Front pages Joe Rogan Experience	 */
+	h1{
+		
+		color : red !important ; 
+		font-family: "Chivo Mono" , monospace !important ; 
+	}
+	
+	
+	
+	
+/* Italic text also applies to H1 */
+	
+/* 	i {
+		color : #899C40 !important ; 
+	} */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 	
