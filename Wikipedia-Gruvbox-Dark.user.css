@@ -254,13 +254,27 @@
     border: 0;
   
 		font-family: "chivo" , monospace !important ; 
-    background-color: #38694B;
-    color: #FFD29C;
+    background-color: #427B58 !important;
+    color: #FFD29C !important;
     cursor: pointer;
     text-align: left;
     font-size: 0.8rem;
-    border-radius: 1rem !important;
+    border-radius: 8px !important;
 }
+	
+	
+		.vector-pinnable-header-toggle-button:hover{
+   
+  
+		font-family: "chivo" , monospace !important ; 
+background-color: #8F3F71!important;
+    color: #EBDBB2!important;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.8rem;
+    border-radius: 8px !important;
+}
+
 	
 	
 	
@@ -562,8 +576,92 @@ span.mw-editsection-bracket{
 }
 	
 	
+/* 	Citations  */
+	sup{
+		font-family : "chivo" , sans-serif !important ;
+		font-weight: 800 !important ; 
+		color : #FABD2F !important ;
+		border :solid #16181A !important ; 
+		border-width: 1px !important ; 
+		border-radius:  5px !important ;
+	}
 	
 	
+	
+	
+	
+	
+	
+	figure[typeof~='mw:File/Thumb'] > figcaption, figure[typeof~='mw:File/Frame'] > figcaption {
+    border: 1px solid #FFD29C;
+		border-radius: 5px !important ; 
+    border-top: 0;
+		color : #689D6A ! important; 
+    background-color: #17191B;
+    font-size: 88.4%;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* Hover menus 	inside  */
+	
+	div.mwe-popups-container{
+ 
+		background-color  : #121210 !important ; 
+	}
+
+	
+	
+/* Menu  -> listen to the article 	 */
+	.mw-parser-output .spoken-wikipedia {
+    border: 1px solid #FABD2F !important;
+		border-radius: 8px !important ; 
+		color : #FFD29C !important ;
+    background-color: #1D1B1A;
+    margin: 0.5em 0;
+    padding: 0.2em;
+    line-height: 1.5em;
+    font-size: 90%;
+}
+	
+	
+/* Lower add  on  the page 	 */
+	.mw-parser-output .side-box {
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #FABD2F;
+		border-radius : 7px !important  ; 
+		color : #1D1B1A !important ;
+    font-size: 88%;
+    line-height: 1.25em;
+    background-color: #FFD29C;
+    display: flow-root;
+}
+	
+/* 	category links  */
+	.catlinks {
+    background-color: #1D1B1A;
+    margin-top: 1em;
+    border: 1px solid #FABD2F;
+		border-radius: 300px !important ; 
+    padding: 5px;
+    clear: both;
+}
 	
 	
 	
