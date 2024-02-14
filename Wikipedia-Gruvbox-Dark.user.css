@@ -322,6 +322,131 @@ border-radius: 1rem !important ;
 	
 	
 	
+/* RIGHT SIDE BAR */
+
+	.uls-search {
+    background-color: #D5C4A1 !important;
+    padding: 5px 16px;
+    border-bottom: 1px solid #D5C4A1 !important;
+}
+	
+	
+/* 	Language bar which is  insidelanguegsa */
+.uls-languagefilter {
+    background-color: #D5C4A1;
+    border: 0;
+    color: #D5C4A1 !important;
+}
+	
+	
+	
+/* Language links 	 */
+	a.autonym{
+		color : #B8BB26 !important ; 
+		background-color : #1D1B1A !important ; 
+	}
+	
+/* Langugae backgotund side bear menu 	 */
+	.uls-lcd {
+    background-color: #1D1B1A;
+    height: 20em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: auto;
+    padding: 0 16px;
+}
+	
+	
+	#uls-settings-block.uls-settings-block--vector-2022.uls-settings-block--with-add-languages {
+		color : red !important ; 
+    background-color: #1D1B1A !important;
+    border-top: 1px solid #FFD29C!important;
+}
+	
+	
+	
+	
+/* Main language links 	 */
+	.cdx-button:enabled, .cdx-button.cdx-button--fake-button--enabled {
+
+    color: #FB4934 !important;
+  
+}
+	
+/* Hover inside the languae side baer 	 */
+	button.cdx-button:hover{
+
+    color: #8EC07C!important;
+  
+}
+
+	
+	
+
+	
+/* SIDE BAR info BOX 	 */
+	
+	
+	th.infobox-above{
+		background-color : #16181A ! important  ; 
+		border-radius: 16rem !important ; 
+	}
+	
+	
+	
+/* Side info box 	 */
+	.infobox{
+  	
+		color : #D5C4A1 !important ; 
+		background-color : #16181A !important ;
+		border-radius: 2rem !important ; 
+}
+	
+	
+	
+/* 	Little bars headings  */
+	th.infobox-header{
+		background-color : #282828 !important ; 
+		border-radius: 6px !important ; 
+	}
+	
+/* Icons heading 	 */
+	th.infobox-label{
+		color : #79740E !important ; 
+	}
+	
+	
+/* Updaed links behind under 	 */
+	.mw-parser-output .ib-youtube-below {
+    color: #689D6A !important;
+}
+	
+/* 	Show button in the side bar  */
+	.mw-collapsible-toggle-default .mw-collapsible-text {
+    color: #FE8019 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -373,7 +498,7 @@ border-radius: 1rem !important ;
 /* 	Bold Text  */
 /* Text that is bold 	 */
 	b{
-		color : #B16286 !important ; 
+		color : #98971A !important ; 
 	}
 	
 /* Paragraphs , text 	 */
@@ -411,6 +536,34 @@ border-radius: 1rem !important ;
 		font-family: "Chivo" ,  !important ; 
 		font-weight: 800 !important ;
 	}
+	
+	
+	
+	
+	
+	
+/* Heading before the P thing 	 */
+	span.mw-headline{
+		color : #F57D26 !important ; 
+	}
+
+	
+/* 	Brackers  */
+	
+span.mw-editsection-bracket{
+ 
+    color: #FABD2F !important;
+}
+	
+	
+/* CItations  in the buttom 	 */
+	cite, dfn {
+    color : #F2E5BC !important ; 
+}
+	
+	
+	
+	
 	
 	
 	
