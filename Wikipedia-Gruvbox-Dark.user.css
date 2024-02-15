@@ -180,12 +180,22 @@
 	
 	
 
-
+	body {
+		background-color :#1D1B1A !important ; 
+	}
+	
+	
+	
+	
+	
 	
 	
 	
 /* 	Input placehodler */
 /* Green Background for the input area 	 */
+	
+	
+	
 	input.cdx-text-input__input{
 	color : #FFD29C !important ; 
 		background-color:  #1D1B1A !important ; 
@@ -200,7 +210,7 @@
 	input::placeholder{
 		
 	font-style :italic !important ;
-	color : #AF3A03 !important ; 
+	color : #928374 !important ; 
 	font-size: 0.9rem !important ; 
 	}
 	
@@ -254,7 +264,7 @@
     border: 0;
   
 		font-family: "chivo" , monospace !important ; 
-    background-color: #427B58 !important;
+    background-color: #3C3836 !important;
     color: #FFD29C !important;
     cursor: pointer;
     text-align: left;
@@ -512,7 +522,7 @@ border-radius: 1rem !important ;
 /* 	Bold Text  */
 /* Text that is bold 	 */
 	b{
-		color : #98971A !important ; 
+		color : #D79921 !important ; 
 	}
 	
 /* Paragraphs , text 	 */
@@ -527,17 +537,25 @@ border-radius: 1rem !important ;
 	
 /* 	Links  */
 	a {
-		color : #FB4934 !important ; 
+		color : #8EC07C !important ; 
+		
+		text-decoration: underline !important ; 
+		text-decoration-color : #BDAE93 !important ; 
+		font-weight: 500 !important ;
+		line-height: 1rem !important ;
 	}
 	
 	
 	a:hover{
-		color : #B8BB26 !important ; 
-		text-decoration-color: #B8BB26 !important; 
+		color : #FB4934 !important ; 
+
+		text-decoration: none  !important ; 
+				text-decoration-color: none  !important; 
 	}
 	
 	a:visited{
-		color : #8EC07C !important ; 
+		color : #98971A !important ; 
+		text-decoration: none !important ; 
 	}
 	
 	
@@ -591,13 +609,13 @@ span.mw-editsection-bracket{
 	
 	
 	
-	
+/*Caption under the iamge  	 */
 	figure[typeof~='mw:File/Thumb'] > figcaption, figure[typeof~='mw:File/Frame'] > figcaption {
     border: 1px solid #FFD29C;
 		border-radius: 5px !important ; 
     border-top: 0;
 		color : #689D6A ! important; 
-    background-color: #17191B;
+    background-color: #16181A;
     font-size: 88.4%;
 }
 	
@@ -658,7 +676,7 @@ span.mw-editsection-bracket{
     background-color: #1D1B1A;
     margin-top: 1em;
     border: 1px solid #FABD2F;
-		border-radius: 300px !important ; 
+		border-radius: 9px !important ; 
     padding: 5px;
     clear: both;
 }
@@ -680,10 +698,12 @@ span.mw-editsection-bracket{
 	
 	
 	
+/* 	
+	div.mw-content-container{
+		width : 70rem !important ; 
+	}
 	
-	
-	
-	
+	 */
 	
 	
 	
