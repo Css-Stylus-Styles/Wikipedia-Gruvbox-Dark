@@ -231,13 +231,20 @@
 		font-weight: 500 !important  ; 
     background-color: #282828 !important;
     color: #D5C4A1 !important;
-    border-color: #79740E;
+    border-color: #98971A;
 		border-radius: 2rem !important ; 
 }
 	
+/* Hover for search button 	 */
+		.cdx-search-input__end-button.cdx-button:hover{
+		font-weight: 500 !important  ; 
+    
+    color: #FFD29C !important;
+    border-color: #FB4934 !important;
+		border-radius: 8px !important ; 
+}
 	
-	
-	
+
 	
 	
 	
@@ -290,7 +297,7 @@ background-color: #8F3F71!important;
 	
 /*Side bar styles  for bg  	 */
 	.vector-pinned-container {
-    background-color: #161614  !important;
+    background-color: #16181A  !important;
 
 
 border-radius: 1rem !important ; 
@@ -310,8 +317,7 @@ border-radius: 1rem !important ;
 /*Left side bar lower gradient removed   */
 		div.vector-sticky-pinned-container::after {
 
-			color : red !important  ; 
-			fill : red !important ; 
+			
 			background-image: none !important ;
 
 }
@@ -323,9 +329,9 @@ border-radius: 1rem !important ;
 	
 /* 	Side bar styles  */
 	.vector-toc .vector-toc-text {
-   color : #FB4934 !important ;
+   color : #79740E !important ;
 		
-		text-decoration:  dotted  !important ; 
+		text-decoration:  none  !important ; 
 }
 	
 	
@@ -390,10 +396,10 @@ border-radius: 1rem !important ;
 	
 	
 	
-/* Main language links 	 */
+/* Main language links 	>> ALSO apply TO the search button */
 	.cdx-button:enabled, .cdx-button.cdx-button--fake-button--enabled {
 
-    color: #FB4934 !important;
+    color: #A89988 !important;
   
 }
 	
@@ -413,7 +419,7 @@ border-radius: 1rem !important ;
 	
 	th.infobox-above{
 		background-color : #16181A ! important  ; 
-		border-radius: 16rem !important ; 
+		border-radius: 4rem !important ; 
 	}
 	
 	
@@ -423,7 +429,7 @@ border-radius: 1rem !important ;
   	
 		color : #D5C4A1 !important ; 
 		background-color : #16181A !important ;
-		border-radius: 2rem !important ; 
+		border-radius: 1rem !important ; 
 }
 	
 	
@@ -488,7 +494,7 @@ border-radius: 1rem !important ;
     padding-top: 0.05px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-		 background-color: #1A1A1A !important;
+		 background-color: #16181A !important;
 /*     background-color: #1A1B1D !important; */
 }
 	
@@ -527,7 +533,7 @@ border-radius: 1rem !important ;
 	
 /* Paragraphs , text 	 */
 	p {
-		color : #FFD29C !important ; 
+		color : #D5C4A1 !important ; 
 	}
 	
 	
