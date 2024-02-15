@@ -458,6 +458,62 @@ border-radius: 1rem !important ;
 	
 	
 	
+/* Qoutes of the person  on the sides 	 */
+	
+	.mw-parser-output .quotebox {
+background-color: #16181A !important;
+    border: 1px solid #FFD29C !important;
+		border-radius: 9px !important ; 
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 100%;
+}
+
+	
+/*Image container  	 */
+	figure[typeof~="mw:File/Thumb"], figure[typeof~="mw:File/Frame"] {
+    background-color: #16181A;
+  
+  		border : solid #16181A !important ; 
+	
+
+   
+}
+	
+	
+	
+	
+	
+/* TABLE 	 */
+/* TABLE TH 	 */
+	
+	th{
+		color : #427B58 !important ; 
+		background-color : #17191B !important ; 
+	
+	}
+	
+	
+	td{
+		color : #B8BB26 !important ; 
+		background-color : #1D2021 !important ; 
+	}
+	
+	
+	
+/* 	LIST NAMES  */
+	
+	li {
+    color : #D3869B !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
