@@ -1,5 +1,8 @@
+
 /* ==UserStyle==
-@name           wikipedia.org - Feb 2024
+@name           Wikipedia dark 
+
+
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    This user style will apply the google chivo font to everything page you visit 
@@ -146,6 +149,8 @@
 	
 	
 	}
+	
+	
 	
 
 	
@@ -329,7 +334,7 @@ border-radius: 1rem !important ;
 	
 /* 	Side bar styles  */
 	.vector-toc .vector-toc-text {
-   color : #79740E !important ;
+   color : #b8bb26 !important ;
 		
 		text-decoration:  none  !important ; 
 }
@@ -501,6 +506,28 @@ background-color: #16181A !important;
 	
 	
 	
+	th.infobox-label[scope="row"] {
+  color: #7dc264 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 /* 	LIST NAMES  */
 	
 	li {
@@ -598,22 +625,20 @@ background-color: #16181A !important;
 	
 	
 /* 	Links  */
-	a {
-		color : #8EC07C !important ; 
+
 		
-		text-decoration: underline !important ; 
-		text-decoration-color : #BDAE93 !important ; 
-		font-weight: 500 !important ;
-		line-height: 1rem !important ;
+	a {
+		color : #b8bb26 !important ; 
+		text-decoration: none;
+ 
 	}
-	
 	
 	a:hover{
-		color : #FB4934 !important ; 
-
-		text-decoration: none  !important ; 
-				text-decoration-color: none  !important; 
+		color : #fe8019 !important ; 
+		  background-size: 20px 2px, 0 2px, 100% 2px;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 	}
+	
 	
 	a:visited{
 		color : #98971A !important ; 
@@ -746,6 +771,73 @@ span.mw-editsection-bracket{
 	
 	
 	
+	
+	
+	
+	/*Tools bar nagivation*/
+	/*Color  is for the tools text 
+and  the backgrond color is for the  while backgorund of the dialogue box */
+	#right-navigation .vector-dropdown-content {
+  color:#fb4934 !important;
+		background-color:#282828 !important;
+		
+}
+	
+	
+	/*tools dialogue box  , General m Print /export text*/
+	.vector-pinnable-element .vector-menu-heading {
+    color: #83a598;
+    font-weight: normal;
+    cursor: default;
+    padding: 6px 0;
+    margin: 6px 0;
+    border-bottom: 1px solid #504945;
+}
+	/*Lines udnder the side contens and the side bar*/
+	.vector-pinnable-header {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #504945;
+    line-height: 1.6;
+}
+	
+	
+	
+	
+	/*SVG*/
+	/*ICons*/
+	
+	svg{
+		color: red !important ; 
+		fill: white !important ;  
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 /* Italic text also applies to H1 */
 	
 /* 	i {
@@ -784,3 +876,4 @@ span.mw-editsection-bracket{
 	
 	
 }
+
