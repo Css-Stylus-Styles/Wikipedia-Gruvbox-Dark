@@ -603,7 +603,7 @@ background-color: #16181A !important;
 	
 /* From Wikipedia the Free encyclopedia text 	 */
 	div#siteSub{
-		color : #665C54 !important ; 
+		color : #928374 !important ; 
 	} 
 	
 	
@@ -804,11 +804,34 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 	
+	
+	
+	/*Main menu */
+	
+	/*Left Hand Side main menu dialogue box background color*/
+	.vector-dropdown .vector-dropdown-content {
+    background-color: #282828 !important;
+    box-shadow: 0 2px 6px -1px #3c3836 !important;
+}
+	
+	
+	
+	/*Main Menu Main text*/
+	
+	div.vector-pinnable-header-label{
+		color: #fb4934 !important ; 
+	}
+	
+	
+	
+	
+	
+	
 	/*SVG*/
 	/*ICons*/
 	
 	svg{
-		color: red !important ; 
+		color: #fabd2f !important ; 
 		fill: white !important ;  
 	}
 	
@@ -873,6 +896,9 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 
 
+	
+	
+}
 	
 	
 }
