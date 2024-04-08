@@ -906,6 +906,23 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	}
 	
 	
+	/*Main aricle langugesa   and the line height changed */
+	main {
+		
+		line-height: 2rem !important;
+	}
+	
+	
+	
+	
+	/*Lower part small text tag lines */
+	span.other-project-tagline.jsl10n{
+		
+		color: #fe8019 !important ; 
+		
+	}
+	
+	
 	
 	
 	
