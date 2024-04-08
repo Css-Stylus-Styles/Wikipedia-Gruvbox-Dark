@@ -1103,6 +1103,46 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 	
+	
+	/*Main page styles*/
+	/*Wikipedia   main home page  */
+	
+	/*Top bar in the Front page */
+	.mw-parser-output #mp-topbanner {
+    background: #16181a;
+		color: #fe8019 !important ; 
+    border-color: #928374;
+		border-radius: 4px !important  ; 
+}
+	
+	/*Bottom left area */
+	.mw-parser-output #mp-left {
+    background: #16181a !important;
+		color: #fe8019 !important ; 
+    border-color: #79740e;
+}
+	
+	/*Bottom Right Area   */
+	.mw-parser-output #mp-right {
+  
+	    background: #16181a !important;
+		color: #fe8019 !important ; 
+    border-color: #79740e;
+	
+	}
+	
+	
+	/*News  , Fron todays  did you know and On this day on the frist page */
+	h2.mp-h2{
+		background-color:#1d1b1a !important;
+		border: 1px solid #fe8019 !important ; 
+		border-radius: 0.3rem !important ; 
+	}
+	
+	
+	
+	
+	
 /* Italic text also applies to H1 */
 	
 /* 	i {
