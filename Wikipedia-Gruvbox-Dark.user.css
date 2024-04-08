@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           Wikipedia dark 
 
@@ -428,7 +429,7 @@
 	input.cdx-text-input__input{
 	color : #FFD29C !important ; 
 		background-color:  #1D1B1A !important ; 
-		border: solid #79740E !important ; 
+		border: solid #514e07 !important ; 
 		border-width: 0.1px !important ; 
 	border-radius: 12rem !important ; 
 	}
@@ -460,7 +461,7 @@
 		font-weight: 500 !important  ; 
     background-color: #282828 !important;
     color: #D5C4A1 !important;
-    border-color: #98971A;
+    border-color: #79740e;
 		padding: 0rem 2rem !important  ; 
 		border-radius: 3rem !important ; 
 
@@ -1180,3 +1181,4 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 }
+
