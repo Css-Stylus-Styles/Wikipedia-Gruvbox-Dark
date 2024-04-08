@@ -861,6 +861,55 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 	
+	/*Front Main page styles*/
+	
+	.app-badges .footer-sidebar-text {
+	
+
+		background-color:#16181a !important;
+		padding: 4rem 2rem 2rem 7rem   !important; 
+	
+	}
+	
+	
+	/*The free encyclopedia text*/
+	#www-wikipedia-org > main > div.central-textlogo > h1 > strong {
+		color: #fe8019 !important ; 
+		font-family: "Harding Text Web Regular Regular" !important  ; 
+	}
+	
+	
+	
+	/*Wikipeida Logo background  */
+	.central-textlogo {
+
+		background: #fbf1c7 !important  ; 
+		line-height: 15px  !important ; 
+		border-radius: 12px !important ; 
+}
+	
+	
+	
+	
+	/*Languages  Articles numbers */
+	.central-featured-lang small {
+    color: #83a598;
+    display: inline-block;
+    font-size: 13px;
+    font-size: 1.3rem;
+		
+}
+	
+	/*Wikipedia is hosted by the Wikimedia*/
+	div.footer-sidebar-text.jsl10n{
+		color: #d5c4a1 !important ; 
+	}
+	
+	
+	
+	
+	
+	
 /* Italic text also applies to H1 */
 	
 /* 	i {
@@ -896,9 +945,6 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 
 
-	
-	
-}
 	
 	
 }
