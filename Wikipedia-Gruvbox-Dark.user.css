@@ -967,16 +967,15 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 
     width: 100%;
     height: 44px;
-    height: 3.4rem;
+    height: 4.4rem;
   
   border-radius: 5px !important;
     border-radius: 2px 0 0 2px;
-    padding: 3.8rem 9.6rem .8rem 1.2rem;
-    font-size: 16px;
-    font-size: 1.6rem;
-    line-height: 1.6;
+    
 		background: #282828 !important  ; 
-		border: 1px solid #ffd29c !important ; 
+		
+		
+		color: white !important ; 
 }
 	
 	/*English  EN in the c input bar*/
@@ -1020,10 +1019,34 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 	
+	/*Inside teh saerch bar recoomandations */
+	div.suggestions-dropdown{
+		
+		background-color:#282828 !important;
+	}
 	
 	
+	/*Suggesttions background */
+.suggestion-link {
+    border-bottom: 1px solid #83a598;
 	
+    
+}
 	
+		/*Suggestions background hover */
+	.suggestion-link:hover{
+		
+		background: #121210 !important ; 
+    border-bottom: 1px solid #83a598;
+	
+    
+}
+	
+	/*Title:of the suggestions*/
+	h3.suggestion-title{
+		
+		color:#b8bb26 !important;
+	}
 	
 	
 	
