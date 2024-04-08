@@ -923,7 +923,40 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	}
 	
 	
+	/*better background of the langugaes */
+	.lang-list-content {
+   
+		
+		background-color:#282828 !important;
+		border: 1px solid #af3a03 !important ;
+		
+}
 	
+	/*Articles  nmumbers inside the articles */
+	.bookshelf .text {
+    background-color: #1d1b1a;
+		color: #fe8019 !important ; 
+		border-radius: 2rem !important ; 
+		
+		
+    position: relative;
+    top: -11.2px;
+    top: -1.12rem;
+    font-weight: 400;
+    padding: 0 3rem;
+}
+	
+	
+	/*border  in the langugges div */
+	.bookshelf {
+    display: block;
+    border-top: 1px solid #fb4934 !important;
+    -webkit-box-shadow: 0 -1px 0 #fb4934 !important;
+    -moz-box-shadow: 0 -1px 0 #fb4934 !important;
+    box-shadow: 0 -1px 0 #fb4934 !important;
+    text-align: center;
+    white-space: nowrap;
+}
 	
 	
 	
