@@ -1,4 +1,3 @@
-
 /* ==UserStyle==
 @name           Wikipedia dark 
 
@@ -838,14 +837,15 @@ background-color: #16181A !important;
 	
 /* 	Bold Text  */
 /* Text that is bold 	 */
-	b{
-		color : #D79921 !important ; 
+	b , strong {
+		color : #fe8019 !important ; 
 	}
 	
 /* Paragraphs , text 	 */
 	p {
-		color : #D5C4A1 !important ; 
+		color : #ffd29c !important ; 
 	}
+	
 	
 	
 	
@@ -856,7 +856,7 @@ background-color: #16181A !important;
 
 		
 	a {
-		color : #b8bb26 !important ; 
+		color : #98971a !important ; 
 		text-decoration: none;
  
 	}
@@ -1180,4 +1180,3 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 }
-
