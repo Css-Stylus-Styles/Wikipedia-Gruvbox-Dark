@@ -150,6 +150,231 @@
 	
 	}
 	
+		
+	/*Front Main page styles*/
+	
+	.app-badges .footer-sidebar-text {
+	
+
+		background-color:#16181a !important;
+		padding: 4rem 2rem 2rem 7rem   !important; 
+	
+	}
+	
+	
+	/*The free encyclopedia text*/
+	#www-wikipedia-org > main > div.central-textlogo > h1 > strong {
+		color: #fe8019 !important ; 
+		font-family: "Harding Text Web Regular Regular" !important  ; 
+	}
+	
+	
+	
+	/*Wikipeida Logo background  */
+	.central-textlogo {
+
+		background: #fbf1c7 !important  ; 
+		line-height: 15px  !important ; 
+		border-radius: 12px !important ; 
+}
+	
+	
+	
+	
+	/*Languages  Articles numbers */
+	.central-featured-lang small {
+    color: #83a598;
+    display: inline-block;
+    font-size: 13px;
+    font-size: 1.3rem;
+		
+}
+	
+	/*Wikipedia is hosted by the Wikimedia*/
+	div.footer-sidebar-text.jsl10n{
+		color: #d5c4a1 !important ; 
+	}
+	
+	
+	/*Main aricle langugesa   and the line height changed */
+	main {
+		
+		line-height: 2rem !important;
+	}
+	
+	
+	
+	
+	/*Lower part small text tag lines */
+	span.other-project-tagline.jsl10n{
+		
+		color: #fe8019 !important ; 
+		
+	}
+	
+	
+	/*better background of the langugaes */
+	.lang-list-content {
+   
+		
+		background-color:#282828 !important;
+		border: 1px solid #af3a03 !important ;
+		
+}
+	
+	/*Articles  nmumbers inside the articles */
+	.bookshelf .text {
+    background-color: #3c3836;
+		color: #ffd29c !important ; 
+		border-radius: 2rem !important ; 
+		
+		
+    position: relative;
+    top: -11.2px;
+    top: -1.12rem;
+    font-weight: 400;
+    padding: 0 3rem;
+}
+	
+	
+	/*border  in the langugges div */
+	.bookshelf {
+    display: block;
+    border-top: 1px solid #fb4934 !important;
+    -webkit-box-shadow: 0 -1px 0 #fb4934 !important;
+    -moz-box-shadow: 0 -1px 0 #fb4934 !important;
+    box-shadow: 0 -1px 0 #fb4934 !important;
+    text-align: center;
+    white-space: nowrap;
+}
+	
+	
+	
+	
+	
+	/*Input in the first thing */
+	Input#searchInput {
+
+    width: 100%;
+    height: 44px;
+  
+  border-radius: 5px !important;
+    border-radius: 2px 0 0 2px;
+    
+		background: #282828 !important  ; 
+		color: #ffd29c !important ; 
+		
+}
+	
+	/*English  EN in the c input bar*/
+	.search-container  .js-langpicker-label {
+    color: #8ec07c;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+	
+	/*Searach Box */
+	.search-container button {
+    min-height: 44px;
+    margin: 0;
+    border-radius:  38px ;
+    font-size: 16px;
+    font-size: 1.6rem;
+    z-index: 2;
+}
+	/*Search button */
+	.pure-button-primary-progressive{
+    background: #cc241d;
+    border-color: #fb4934;
+		padding : 0rem 3rem  !important ; 
+    line-height: 24px;
+    line-height: 1.4rem;
+		
+		
+}
+	
+	/*Search button  HOVER*/
+		.pure-button-primary-progressive:hover{
+    background: #fb4934;
+    border-color: #fe8019;
+			
+    border-radius:  10px ;
+  transition: border-radius 0.4s ease-in-out;
+
+}
+	
+	
+	
+	
+	/*Inside teh saerch bar recoomandations */
+	div.suggestions-dropdown{
+		
+		background-color:#282828 !important;
+	}
+	
+	
+	/*Suggesttions background */
+.suggestion-link {
+    border-bottom: 1px solid #83a598;
+	
+    
+}
+	
+		/*Suggestions background hover */
+	.suggestion-link:hover{
+		
+		background: #121210 !important ; 
+    border-bottom: 1px solid #83a598;
+	
+    
+}
+	
+	/*Title:of the suggestions*/
+	h3.suggestion-title{
+		
+		color:#b8bb26 !important;
+	}
+	
+	
+/*Read WIkipedia in your language */
+	.lang-list-button {
+    background-color: #16181a !important;
+    display: inline;
+    position: relative;
+    z-index: 1;
+    padding: .6rem 5.2rem !important;
+    outline: 16px solid #b8bb26 !important;
+    outline: 1px solid #b8bb26 !important;
+    border: 1px solid #b8bb26;
+    -moz-border-radius: 2px;
+    border-radius: 8px !important;
+    color: #83a598 !important;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 
@@ -860,223 +1085,15 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 	
-	
-	/*Front Main page styles*/
-	
-	.app-badges .footer-sidebar-text {
-	
 
-		background-color:#16181a !important;
-		padding: 4rem 2rem 2rem 7rem   !important; 
 	
+	
+	
+	
+	/*Wikipeida Search Button */
+	span.cdx-text-input__icon.cdx-text-input__start-icon{
+		background:  #fb4934 !important ; 
 	}
-	
-	
-	/*The free encyclopedia text*/
-	#www-wikipedia-org > main > div.central-textlogo > h1 > strong {
-		color: #fe8019 !important ; 
-		font-family: "Harding Text Web Regular Regular" !important  ; 
-	}
-	
-	
-	
-	/*Wikipeida Logo background  */
-	.central-textlogo {
-
-		background: #fbf1c7 !important  ; 
-		line-height: 15px  !important ; 
-		border-radius: 12px !important ; 
-}
-	
-	
-	
-	
-	/*Languages  Articles numbers */
-	.central-featured-lang small {
-    color: #83a598;
-    display: inline-block;
-    font-size: 13px;
-    font-size: 1.3rem;
-		
-}
-	
-	/*Wikipedia is hosted by the Wikimedia*/
-	div.footer-sidebar-text.jsl10n{
-		color: #d5c4a1 !important ; 
-	}
-	
-	
-	/*Main aricle langugesa   and the line height changed */
-	main {
-		
-		line-height: 2rem !important;
-	}
-	
-	
-	
-	
-	/*Lower part small text tag lines */
-	span.other-project-tagline.jsl10n{
-		
-		color: #fe8019 !important ; 
-		
-	}
-	
-	
-	/*better background of the langugaes */
-	.lang-list-content {
-   
-		
-		background-color:#282828 !important;
-		border: 1px solid #af3a03 !important ;
-		
-}
-	
-	/*Articles  nmumbers inside the articles */
-	.bookshelf .text {
-    background-color: #3c3836;
-		color: #ffd29c !important ; 
-		border-radius: 2rem !important ; 
-		
-		
-    position: relative;
-    top: -11.2px;
-    top: -1.12rem;
-    font-weight: 400;
-    padding: 0 3rem;
-}
-	
-	
-	/*border  in the langugges div */
-	.bookshelf {
-    display: block;
-    border-top: 1px solid #fb4934 !important;
-    -webkit-box-shadow: 0 -1px 0 #fb4934 !important;
-    -moz-box-shadow: 0 -1px 0 #fb4934 !important;
-    box-shadow: 0 -1px 0 #fb4934 !important;
-    text-align: center;
-    white-space: nowrap;
-}
-	
-	
-	
-	
-	
-	/*Input in the first thing */
-	Input#searchInput {
-
-    width: 100%;
-    height: 44px;
-  
-  border-radius: 5px !important;
-    border-radius: 2px 0 0 2px;
-    
-		background: #282828 !important  ; 
-		color: #ffd29c !important ; 
-		
-}
-	
-	/*English  EN in the c input bar*/
-	.search-container  .js-langpicker-label {
-    color: #8ec07c;
-    font-size: 13px;
-    font-size: 1.3rem;
-    line-height: 24px;
-    text-transform: uppercase;
-}
-	
-	/*Searach Box */
-	.search-container button {
-    min-height: 44px;
-    margin: 0;
-    border-radius:  38px ;
-    font-size: 16px;
-    font-size: 1.6rem;
-    z-index: 2;
-}
-	/*Search button */
-	.pure-button-primary-progressive{
-    background: #cc241d;
-    border-color: #fb4934;
-		padding : 0rem 3rem  !important ; 
-    line-height: 24px;
-    line-height: 1.4rem;
-		
-		
-}
-	
-	/*Search button  HOVER*/
-		.pure-button-primary-progressive:hover{
-    background: #fb4934;
-    border-color: #fe8019;
-			
-    border-radius:  10px ;
-  transition: border-radius 0.4s ease-in-out;
-
-}
-	
-	
-	
-	
-	/*Inside teh saerch bar recoomandations */
-	div.suggestions-dropdown{
-		
-		background-color:#282828 !important;
-	}
-	
-	
-	/*Suggesttions background */
-.suggestion-link {
-    border-bottom: 1px solid #83a598;
-	
-    
-}
-	
-		/*Suggestions background hover */
-	.suggestion-link:hover{
-		
-		background: #121210 !important ; 
-    border-bottom: 1px solid #83a598;
-	
-    
-}
-	
-	/*Title:of the suggestions*/
-	h3.suggestion-title{
-		
-		color:#b8bb26 !important;
-	}
-	
-	
-/*Read WIkipedia in your language */
-	.lang-list-button {
-    background-color: #16181a !important;
-    display: inline;
-    position: relative;
-    z-index: 1;
-    padding: .6rem 5.2rem !important;
-    outline: 16px solid #b8bb26 !important;
-    outline: 1px solid #b8bb26 !important;
-    border: 1px solid #b8bb26;
-    -moz-border-radius: 2px;
-    border-radius: 8px !important;
-    color: #83a598 !important;
-    font-size: 14px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1;
-}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
