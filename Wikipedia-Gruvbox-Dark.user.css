@@ -1115,22 +1115,21 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 		border-radius: 4px !important  ; 
 }
 	
-	/*Bottom left area */
-	.mw-parser-output #mp-left {
-    background: #16181a !important;
-		color: #fe8019 !important ; 
-    border-color: #79740e;
-}
+
 	
-	/*Bottom Right Area   */
-	.mw-parser-output #mp-right {
-  
-	    background: #16181a !important;
+	
+	/*All the Bottom backgound and More */
+	.mw-parser-output #mp-left , 
+.mw-parser-output #mp-right, 	.mw-parser-output #mp-middle  , .mw-parser-output #mp-lower {
+    
+ 
+		    background: #16181a !important;
 		color: #fe8019 !important ; 
     border-color: #79740e;
+		border-radius: 4px !important  ; 
+	
 	
 	}
-	
 	
 	/*News  , Fron todays  did you know and On this day on the frist page */
 	h2.mp-h2{
