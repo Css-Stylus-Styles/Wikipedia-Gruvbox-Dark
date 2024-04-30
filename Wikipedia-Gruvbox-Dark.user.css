@@ -782,11 +782,10 @@ background-color: #16181A !important;
 	
 	
 	
-	
 /* 	LIST NAMES  */
 	
 	li {
-    color : #D3869B !important ; 
+    color : #fabd2f !important ; 
 }
 	
 	
@@ -874,6 +873,12 @@ background-color: #16181A !important;
 		color : #ffd29c !important ; 
 	}
 	
+	
+	/*Not to be Confused with text*/
+	div.hatnote.navigation-not-searchable {
+  color: #000000; /* Change this to your desired color */
+  font-family: "Harding Text Web Regular";
+}
 	
 	
 	
@@ -1208,4 +1213,4 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 }
-:\Programming\Projects\github repos\Wikipedia-Gruvbox-Dark
+
