@@ -150,6 +150,145 @@
 	
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	:root, .skin-invert, .notheme, .ve-ui-overlay, .oo-ui-popupWidget-popup, .oo-ui-toolbar {
+    --color-base: #282828 !important;
+    --color-base--hover: #b8bb26 !important;
+    --color-emphasized: #fb4934 !important;
+    --color-subtle: #282828 !important;
+    --color-placeholder: #fe8019 !important;
+    --color-disabled: #72777d !important;
+    --color-inverted: #fb4934 !important;
+    --color-inverted-fixed: #fb4934 !important;
+    --color-progressive: #b8bb26 !important;
+    --color-progressive--hover: #514e07 !important;
+    --color-progressive--active: #514e07 !important;
+    --color-progressive--focus: #79740e !important;
+    --color-destructive: #79740e !important;
+    --color-destructive--hover: #9d0006 !important;
+    --color-destructive--active: #9d0006 !important;
+    --color-destructive--focus: #83a598 !important;
+    --color-visited: #fe8019 !important;
+    --color-destructive--visited: #fabd2f !important;
+    --color-error: #d73333 !important;
+    --color-warning: #fb4934 !important;
+    --color-success: #b8bb26 !important;
+    --color-notice: #202122 !important;
+    --color-content-added: #83a598 !important;
+    --color-content-removed: #fb4934 !important;
+    --color-base--subtle: #282828 !important;
+    --color-link-red: #fb4934 !important;
+    --color-link-red--hover: #fe8019 !important;
+    --color-link-red--active: #fb4934 !important;
+    --color-link-red--focus: #83a598 !important;
+    --color-link-red--visited: #a55858 !important;
+    --filter-invert-icon: 0 !important;
+    --filter-invert-primary-button-icon: 1 !important;
+    --box-shadow-color-base: #000 !important;
+    --box-shadow-color-progressive--active: #16181a !important;
+    --box-shadow-color-progressive--focus: #689d6a !important;
+    --box-shadow-color-progressive-selected: #83a598 !important;
+    --box-shadow-color-progressive-selected--hover: #b8bb26 !important;
+    --box-shadow-color-progressive-selected--active: #fe8019 !important;
+    --box-shadow-color-destructive--focus: #98971a !important;
+    --box-shadow-color-inverted: #282828 !important;
+    --box-shadow-color-transparent: transparent !important;
+    --background-color-interactive: #fb4934 !important;
+    --background-color-interactive-subtle: #1d1b1a !important;
+    --background-color-disabled: #fb4934 !important;
+    --background-color-disabled-subtle: #fabd2f !important;
+    --background-color-progressive: #fe8019 !important;
+    --background-color-progressive--hover: #689d6a !important;
+    --background-color-progressive--active: #fabd2f !important;
+    --background-color-progressive--focus: #fabd2f !important;
+    --background-color-progressive-subtle: #fe8019 !important;
+    --background-color-destructive: #fb4934 !important;
+    --background-color-destructive--hover: #ff4242 !important;
+    --background-color-destructive--active: #b32424 !important;
+    --background-color-destructive--focus: #98971a !important;
+    --background-color-destructive-subtle: #f3b627 !important;
+    --background-coutton-quiet--hover: rgba(0,24,73,0.027) !important;
+    --background-color-button-quiet--active: rgba(0,24,73,0.082) !important;
+    --background-color-input-binary--checked: #fb4934 !important;
+    --background-color-tab-list-item-framed--hover: rgba(255 !important,255,255,0.3);
+    --background-color-tab-list-item-framed--active: rgba(255,255,255, !important0.65);
+    --opacity-icon-base: 0.87;
+    --opacity-icon-base--hover: 0.74 !important;
+    --opacity-icon-base--selected: 1 !important;
+    --opacity-icon-base--disabled: 0.51 !important;
+    --opacity-icon-placeholder: 0.51 !important;
+    --opacity-icon-subtle: 0.67 !important;
+    --border-color-base: #fb4934 !important;
+    --border-color-interactive: #72777d !important;
+    --border-color-disabled: #c8ccd1 !important;
+    --border-color-subtle: #c8ccd1 !important;
+    --border-color-muted: #eaecf0 !important;
+    --border-color-inverted: #fff !important;
+    --border-color-progressive: #282828 !important;
+    --border-color-progressive--hover: #fb4934 !important;
+    --border-color-progressive--active: #8ec07c !important;
+    --border-color-progressive--focus: #83a598 !important;
+    --border-color-destructive: #8ec07c !important;
+    --border-color-destructive--hover: #ff4242 !important;
+    --border-color-delor-error: #8ec07c !important;
+    --background-color-error--hover: #ff4242 !important;
+    --background-color-error--active: #fb4934 !important;
+    --background-color-error-subtle: #d3869b !important;
+    --background-color-warning-subtle: #fe8019 !important;
+    --background-color-success-subtle: #8ec07c !important;
+    --background-color-notice-subtle: #eaecf0 !important;
+    --background-color-content-added: #282828 !important;
+    --background-color-content-removed: #ad822b !important;
+    --background-color-backdrop-light: rgba(255,255,255,0 !important.65);
+    --background-color-backdrop-dark: rgba(0,0,0,0.65) !important;
+		/*citations background */
+    --background-color-base: #16181a !important;
+		/*side bar options background color checkboxes*/
+    --background-color-base-fixed: #282828 !important;
+    --background-color-neutral: #282828 !important;
+    --background-color-neutral-subtle: #1d1b1a !important;
+    --background-color-transparent: transparent !important;
+    --background-color-bstructive--active: #9d0006 !important;
+    --border-color-destructive--focus: #b8bb26 !important;
+    --border-color-error: #fb4934 !important;
+    --border-color-error--hover: #ff4242 !important;
+    --border-color-warning: #fb4934 !important;
+    --border-color-success: #096450 !important;
+    --border-color-notice: #54595d !important;
+    --border-color-content-added: #fb4934 !important;
+    --border-color-content-removed: #fb4934 !important;
+    --border-color-transparent: #fb4934 !important;
+    --border-color-divider: #fb4934 !important;
+    --border-color-input--hover: #fb4934 !important;
+    --border-color-input-binary: #fb4934 !important;
+    --border-color-input-binary--hover: #447ff5 !important;
+    --border-color-input-binary--active: #fb4934 !important;
+    --border-color-input-binary--focus: #fb4934 !important;
+    --border-color-input-binary--checked: #cc241d !important;
+		
+		/*Divider at the lower bottom */
+    --border-base: 1px solid #689d6a !important;
+    --border-subtle: 1px solid #fb4934 !important;
+    --border-progressive: 1px solid #fe8019 !important;
+    --border-destructive: 1px solid #fe8019 !important;
+    --outline-color-progressive--focus: #fe8019 !important;
+}
 		
 	/*Front Main page styles*/
 	
@@ -237,7 +376,7 @@
 	
 	/*Articles  nmumbers inside the articles */
 	.bookshelf .text {
-    background-color: #3c3836;
+    background-color: #1d1b1a;
 		color: #ffd29c !important ; 
 		border-radius: 2rem !important ; 
 		
@@ -438,7 +577,7 @@
 	
 
 	body {
-		background-color :#1D1B1A !important ; 
+		background-color :#1f1e1d !important ; 
 	}
 	
 	
@@ -557,7 +696,7 @@ background-color: #8F3F71!important;
 	
 /*Side bar styles  for bg  	 */
 	.vector-pinned-container {
-    background-color: #16181A  !important;
+    background-color: #1a1b1d  !important;
 
 
 border-radius: 1rem !important ; 
@@ -702,7 +841,7 @@ border-radius: 1rem !important ;
 	
 /* Icons heading 	 */
 	th.infobox-label{
-		color : #79740E !important ; 
+		color : #98971a !important ; 
 	}
 	
 	
@@ -831,7 +970,7 @@ background-color: #16181A !important;
     padding-top: 0.05px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-		 background-color: #16181A !important;
+		 background-color: #1f1e1d !important;
 /*     background-color: #1A1B1D !important; */
 }
 	
@@ -870,19 +1009,13 @@ background-color: #16181A !important;
 	
 /* Paragraphs , text 	 */
 	p {
-		color : #ffd29c !important ; 
+		color : #ebdbb2 !important ; 
 	}
 	
 	
-	/*Not to be Confused with text*/
-	div.hatnote.navigation-not-searchable {
-  color: #5a93a2; /* Change this to your desired color */
-  font-family: "Harding Text Web Regular";
-}
 	
 	
 	
-
 	
 	
 /* 	Links  */
@@ -895,7 +1028,8 @@ background-color: #16181A !important;
 	}
 	
 	a:hover{
-		color : #fe8019 !important ; 
+		color : #fabd2f !important ; 
+		transition: color 0.4s ease-in-out !important ; 
 		  background-size: 20px 2px, 0 2px, 100% 2px;
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 	}
@@ -912,7 +1046,7 @@ background-color: #16181A !important;
 /* Front pages Joe Rogan Experience	 */
 	h1{
 		
-		color : #79740E !important ; 
+		color : #83a598 !important ; 
 		font-family: "Chivo" ,  !important ; 
 		font-weight: 800 !important ;
 	}
@@ -1197,8 +1331,7 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	 */
 	
 	
-	
-	
+
 	
 	
 	
