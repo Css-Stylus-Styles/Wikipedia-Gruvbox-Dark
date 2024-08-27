@@ -33,6 +33,8 @@
     --bg-dark-new  :  #1F1E1D ; 
 /*For basic text new color added  	 */
 --text-normal :#ffd29c ;
+	/*Like the Darkest Color in the theme but no color */
+	--background-desat : #181818  ; 
 
     --shadow-bg:         #1d1b1a;
     
@@ -436,7 +438,7 @@
 	
 	/*Top Bar  */
 	div.wiki-header{
-		background-color:#1d1b1a !important;
+		background-color:#16181a !important;
 	}
 	
 	
@@ -1501,7 +1503,7 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	/*Background for Articles*/
 	/*Body Syles */
 	.mw-body, .parsoid-body{
-		background-color:#16171a !important;
+		background-color:#181818 !important;
 	}
 	
 	
@@ -1677,7 +1679,7 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	/*Highlighted parts  in Code */
 	
-	.mw-highlight .nt  {
+	.mw-highlight .nt , .nv {
     color: #b8bb26 !important;
 		font-family: 'Fira Mono'  !important;
 		font-weight: 600 !important ; 
@@ -1686,7 +1688,7 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 }
 	
 	/*Links in Code Blocks */
-	.mw-highlight .s {
+	.mw-highlight .s , .ss {
     color: #fb4934 !important;
 	font-family: 'Fira Mono'  !important;
 	font-weight: 600 !important ; 
