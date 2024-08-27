@@ -444,7 +444,7 @@
 	
 	/*Top Bar -> Input Button */	
 	input#wiki_search{
-		background-color:#282828 !important;
+		background-color:#181818 !important;
 		border: solid 2px #3c3836 !important; 
 		border-radius: 0.5em !important ; 
 	}
@@ -1441,13 +1441,6 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 
 	
-	
-	
-	
-	/*Wikipeida Search Button */
-	span.cdx-text-input__icon.cdx-text-input__start-icon{
-		background:  #fb4934 !important ; 
-	}
 	
 	
 	
