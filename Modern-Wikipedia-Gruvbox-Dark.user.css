@@ -1,0 +1,1603 @@
+/* ==UserStyle==
+@name            Modern Wikipedia dark Try with moern wikipeida
+
+
+@namespace      github.com/cssusertyles/wikipeida modern
+@version        1.0.0
+@description    This user style will apply the google chivo font to everything page you visit 
+                I have made some changes in it 
+                this will not change the following 
+                    - monospace font
+                    - icons --> this theme is set up to ignore icons and dont mess up icons on most websites 
+@author         heybilalazhar@gmail.com
+==/UserStyle== */
+
+
+
+@-moz-document url-prefix("https://en.wikipedia.org/"){
+    /* Insert code here... */
+		
+	
+	
+	    :root
+
+{
+    /* 0 is for darkest 
+    1 is for hard 
+    higher values for hard  */
+
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg-dark-new  :  #1F1E1D ; 
+/*For basic text new color added  	 */
+--text-normal :#ffd29c ;
+
+    --shadow-bg:         #1d1b1a;
+    
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
+
+    --faded-red:     #fb4934;
+    --faded-orange:  #fe8019;
+    --faded-yellow:  #fabd2f;
+    --faded-green:   #b8bb26;
+    --faded-aqua:    #8ec07c;
+    --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
+
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
+    
+
+    
+
+
+
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
+
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
+  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
+  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
+  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
+  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
+  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+  --dark-orange: #af3a03;
+
+
+/* light colors */
+  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
+  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
+  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
+  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
+  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
+  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
+  --interface-light4: #a89988; /* light4: #a89988 */
+
+
+ 
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*Font Import */
+	
+	
+	/*Importing Margon */
+	
+	
+	/*Margon Medium Import */
+	
+@font-face {
+    font-family: "Margon 360 W08 Medium";
+    src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot");
+    src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.svg#Margon 360 W08 Medium")format("svg");
+}	
+	
+	
+	@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
+
+	
+	
+	
+	/*Bricolage Grotesque Import */
+	
+	
+	
+	
+	@font-face {
+    font-family: "Bricolage Grotesque";
+    src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot");
+    src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.svg#Bricolage Grotesque")format("svg");
+}
+	
+	
+	
+	@import url(https://db.onlinewebfonts.com/c/102353a74d2e0700af3e11ef8a917b26?family=Bricolage+Grotesque) ;  
+	
+	
+	
+	
+	
+	
+	/*Lora Font Import*/
+	@font-face {
+    font-family: "Lora";
+    src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot");
+    src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.svg#Lora")format("svg");
+}
+	
+	
+	
+	
+	
+	
+	@import url(https://db.onlinewebfonts.com/c/5c803199923a6ed48112bebbb486b3e0?family=Lora);
+	
+	
+	
+	
+	
+	
+	
+	/*Lingistics Pro Font  */
+	
+	@font-face {
+    font-family: "Linguistics Pro";
+    src: url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.eot");
+    src: url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.svg#Linguistics Pro")format("svg");
+}
+	@import url(https://db.onlinewebfonts.com/c/3612352f3b0606a3a5d675e7279f7c17?family=Linguistics+Pro);
+	
+	
+	
+	
+	
+	/*Commit Mono*/
+	
+	@font-face {
+    font-family: "CommitMono";
+    src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot");
+    src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.svg#CommitMono")format("svg");
+}
+	
+	
+	
+	@import url(https://db.onlinewebfonts.com/c/3d911dba955015058da8755197d0a58c?family=CommitMono);
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	:root, .skin-invert, .notheme, .ve-ui-overlay, .oo-ui-popupWidget-popup, .oo-ui-toolbar {
+    --color-base: #ffd29c !important;
+    --color-base--hover: #b8bb26 !important;
+    --color-emphasized: #fb4934 !important;
+    --color-subtle: #282828 !important;
+    --color-placeholder: #fe8019 !important;
+    --color-disabled: #72777d !important;
+    --color-inverted: #fb4934 !important;
+    --color-inverted-fixed: #fb4934 !important;
+    --color-progressive: #b8bb26 !important;
+    --color-progressive--hover: #514e07 !important;
+    --color-progressive--active: #514e07 !important;
+    --color-progressive--focus: #79740e !important;
+    --color-destructive: #79740e !important;
+    --color-destructive--hover: #9d0006 !important;
+    --color-destructive--active: #9d0006 !important;
+    --color-destructive--focus: #83a598 !important;
+    --color-visited: #fe8019 !important;
+    --color-destructive--visited: #fabd2f !important;
+    --color-error: #d73333 !important;
+    --color-warning: #fb4934 !important;
+    --color-success: #b8bb26 !important;
+    --color-notice: #202122 !important;
+    --color-content-added: #83a598 !important;
+    --color-content-removed: #fb4934 !important;
+    --color-base--subtle: #282828 !important;
+    --color-link-red: #fb4934 !important;
+    --color-link-red--hover: #fe8019 !important;
+    --color-link-red--active: #fb4934 !important;
+    --color-link-red--focus: #83a598 !important;
+    --color-link-red--visited: #a55858 !important;
+    --filter-invert-icon: 0 !important;
+    --filter-invert-primary-button-icon: 1 !important;
+    --box-shadow-color-base: #000 !important;
+    --box-shadow-color-progressive--active: #16181a !important;
+    --box-shadow-color-progressive--focus: #689d6a !important;
+    --box-shadow-color-progressive-selected: #83a598 !important;
+    --box-shadow-color-progressive-selected--hover: #b8bb26 !important;
+    --box-shadow-color-progressive-selected--active: #fe8019 !important;
+    --box-shadow-color-destructive--focus: #98971a !important;
+    --box-shadow-color-inverted: #282828 !important;
+    --box-shadow-color-transparent: transparent !important;
+    --background-color-interactive: #fb4934 !important;
+    --background-color-interactive-subtle: #1d1b1a !important;
+    --background-color-disabled: #fb4934 !important;
+    --background-color-disabled-subtle: #fabd2f !important;
+    --background-color-progressive: #fe8019 !important;
+    --background-color-progressive--hover: #689d6a !important;
+    --background-color-progressive--active: #fabd2f !important;
+    --background-color-progressive--focus: #fabd2f !important;
+    --background-color-progressive-subtle: #fe8019 !important;
+    --background-color-destructive: #fb4934 !important;
+    --background-color-destructive--hover: #ff4242 !important;
+    --background-color-destructive--active: #b32424 !important;
+    --background-color-destructive--focus: #98971a !important;
+    --background-color-destructive-subtle: #f3b627 !important;
+    --background-coutton-quiet--hover: rgba(0,24,73,0.027) !important;
+    --background-color-button-quiet--active: rgba(0,24,73,0.082) !important;
+    --background-color-input-binary--checked: #fb4934 !important;
+    --background-color-tab-list-item-framed--hover: rgba(255 !important,255,255,0.3);
+    --background-color-tab-list-item-framed--active: rgba(255,255,255, !important0.65);
+    --opacity-icon-base: 0.87;
+    --opacity-icon-base--hover: 0.74 !important;
+    --opacity-icon-base--selected: 1 !important;
+    --opacity-icon-base--disabled: 0.51 !important;
+    --opacity-icon-placeholder: 0.51 !important;
+    --opacity-icon-subtle: 0.67 !important;
+    --border-color-base: #fb4934 !important;
+    --border-color-interactive: #72777d !important;
+    --border-color-disabled: #c8ccd1 !important;
+    --border-color-subtle: #c8ccd1 !important;
+    --border-color-muted: #eaecf0 !important;
+    --border-color-inverted: #fff !important;
+    --border-color-progressive: #282828 !important;
+    --border-color-progressive--hover: #fb4934 !important;
+    --border-color-progressive--active: #8ec07c !important;
+    --border-color-progressive--focus: #83a598 !important;
+    --border-color-destructive: #8ec07c !important;
+    --border-color-destructive--hover: #ff4242 !important;
+    --border-color-delor-error: #8ec07c !important;
+    --background-color-error--hover: #ff4242 !important;
+    --background-color-error--active: #fb4934 !important;
+    --background-color-error-subtle: #d3869b !important;
+    --background-color-warning-subtle: #fe8019 !important;
+    --background-color-success-subtle: #8ec07c !important;
+    --background-color-notice-subtle: #eaecf0 !important;
+    --background-color-content-added: #282828 !important;
+    --background-color-content-removed: #ad822b !important;
+    --background-color-backdrop-light: rgba(255,255,255,0 !important.65);
+    --background-color-backdrop-dark: rgba(0,0,0,0.65) !important;
+		/*citations background */
+    --background-color-base: #16181a !important;
+		/*side bar options background color checkboxes*/
+    --background-color-base-fixed: #282828 !important;
+    --background-color-neutral: #282828 !important;
+    --background-color-neutral-subtle: #1d1b1a !important;
+    --background-color-transparent: transparent !important;
+    --background-color-bstructive--active: #9d0006 !important;
+    --border-color-destructive--focus: #b8bb26 !important;
+    --border-color-error: #fb4934 !important;
+    --border-color-error--hover: #ff4242 !important;
+    --border-color-warning: #fb4934 !important;
+    --border-color-success: #096450 !important;
+    --border-color-notice: #54595d !important;
+    --border-color-content-added: #fb4934 !important;
+    --border-color-content-removed: #fb4934 !important;
+    --border-color-transparent: #fb4934 !important;
+    --border-color-divider: #fb4934 !important;
+    --border-color-input--hover: #fb4934 !important;
+    --border-color-input-binary: #fb4934 !important;
+    --border-color-input-binary--hover: #447ff5 !important;
+    --border-color-input-binary--active: #fb4934 !important;
+    --border-color-input-binary--focus: #fb4934 !important;
+    --border-color-input-binary--checked: #cc241d !important;
+		
+		/*Divider at the lower bottom */
+    --border-base: 1px solid #689d6a !important;
+    --border-subtle: 1px solid #fb4934 !important;
+    --border-progressive: 1px solid #fe8019 !important;
+    --border-destructive: 1px solid #fe8019 !important;
+    --outline-color-progressive--focus: #fe8019 !important;
+}
+		
+	
+	
+	
+	
+	
+	/*Top Bar  */
+	div.wiki-header{
+		background-color:#1d1b1a !important;
+	}
+	
+	
+	/*Top Bar -> Input Button */	
+	input#wiki_search{
+		background-color:#282828 !important;
+		border: solid 2px #3c3836 !important; 
+		border-radius: 0.5em !important ; 
+	}
+	
+	/*Top Bar -> Input Button Hover */	
+	input#wiki_search:hover{
+		background-color:#16181a !important;
+		border: solid 2px #b8bb26 !important; 
+		border-radius: 0.5em !important ; 
+		transition: border 0.6s ease-in-out , background 0.2s ease-in-out !important ; 
+	}
+	
+	
+	
+	
+	/*Input Placeholder for the text */
+	input::placeholder {
+  color: #928374  !important  ; 
+		font-family: "Lora" !important ; 
+  font-style: italic; /* placeholder text font style */
+  font-size: 0.9em; /* placeholder text font size */
+}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	/*Front Main page styles*/
+	
+	
+	/*Top Header Background Color */
+	.app-badges .footer-sidebar-text {
+	
+
+		background-color:#16181a !important;
+		padding: 4rem 2rem 2rem 7rem   !important; 
+	
+	}
+	
+	
+	/*Front page Title */
+	
+	span.mw-page-title-main {
+		color : #8ec07c !important ;  
+		
+		
+		/*This code makes the title go in Front  */
+		/*
+		display: block !important;
+		text-align: center !important;
+		margin: 0 auto !important;
+	
+		*/
+		
+		
+		
+ 			/*Font loads right (More testing for realiabiltiy needed ) */
+		/*Title Font change */
+		font-family: "Bricolage Grotesque" !important;
+		
+		
+	}
+	
+	
+	/*Description Under the title of the article */
+	.shortdescription {
+    margin-top: 5px !important;
+    color: #83a598  !important;
+		font-family: "Chivo" !important ;
+		font-size: 0.96rem !important ; 
+		font-style:  italic  !important ; 
+	}
+	
+	
+	/*Not To be confused with && Other Notes about the articles */
+	/*Note Under the article */
+	div.hatnote.navigation-not-searchable{
+		
+	color: #689d6a !important ; 
+	font-family: "Linguistics Pro" !important ;
+	}
+	
+	
+	/*Hiding The Wikipedia logo on the side */
+	.wiki-logo-text {
+		display: none !important ;
+		/*Color Can be changed with filter (i chose to hide this )*/
+}
+	
+	
+/*Icons on the interface  */
+	
+	body.theme-dark .wiki-header-button-article div, body.theme-black .wiki-header-button-article div, body.theme-slate .wiki-header-button-article div {
+    opacity: 1 !important;
+	
+}
+	
+	
+	
+	/*The free encyclopedia text*/
+	#www-wikipedia-org > main > div.central-textlogo > h1 > strong {
+		color: #fe8019 !important ; 
+		font-family: "Linguistics Pro" !important;
+	}
+	
+	
+	
+	/*Wikipeida Logo background  */
+	.central-textlogo {
+
+		background: #fbf1c7 !important  ; 
+		line-height: 15px  !important ; 
+		border-radius: 12px !important ; 
+}
+	
+	
+	
+	
+	/*Languages  Articles numbers */
+	.central-featured-lang small {
+    color: #83a598;
+    display: inline-block;
+    font-size: 13px;
+    font-size: 1.3rem;
+		
+}
+	
+	/*Wikipedia is hosted by the Wikimedia*/
+	div.footer-sidebar-text.jsl10n{
+		color: #d5c4a1 !important ; 
+	}
+	
+	
+	/*Main aricle langugesa   and the line height changed */
+	main {
+		
+		line-height: 2rem !important;
+	}
+	
+	
+	
+	
+	/*Lower part small text tag lines */
+	span.other-project-tagline.jsl10n{
+		
+		color: #fe8019 !important ; 
+		
+	}
+	
+	
+	
+	/*The Language borer hover */
+	.central-featured-lang :hover {
+    background-color: #3c3836 !important;
+		padding: 4px !important ; 
+		border-radius: 3px !important ; 
+		    transition: all 0.3s ease-in-out;
+
+}
+	
+	
+	
+	
+	/*better background of the langugaes */
+	.lang-list-content {
+   
+		
+		background-color:#282828 !important;
+		border: 1px solid #af3a03 !important ;
+		
+}
+	
+	/*Articles  nmumbers inside the articles */
+	.bookshelf .text {
+    background-color: #1d1b1a;
+		color: #ffd29c !important ; 
+		border-radius: 2rem !important ; 
+		
+		
+    position: relative;
+    top: -11.2px;
+    top: -1.12rem;
+    font-weight: 400;
+    padding: 0 3rem;
+}
+	
+	
+	/*border  in the langugges div */
+	.bookshelf {
+    display: block;
+    border-top: 1px solid #fb4934 !important;
+    -webkit-box-shadow: 0 -1px 0 #fb4934 !important;
+    -moz-box-shadow: 0 -1px 0 #fb4934 !important;
+    box-shadow: 0 -1px 0 #fb4934 !important;
+    text-align: center;
+    white-space: nowrap;
+}
+	
+	
+	
+	
+	
+	/*Input in the first thing */
+	Input#searchInput {
+
+    width: 100%;
+    height: 44px;
+  border: 1px solid #79740e !important ; 
+  border-radius: 5px !important;
+    
+	
+		background: #282828 !important  ; 
+		color: #ffd29c !important ; 
+		
+		
+}
+	/*Main page box shadow */
+	.pure-form input[type=search] {
+    background-color: #282828;
+    box-shadow: inset 0 0 0 1px #79740e;
+}
+	
+	
+	
+	/*Main page box shadow  on hover and visited */
+	re-form input[type=search]:active{
+    background-color: #282828;
+    box-shadow: inset 0 0 0 1px #79740e;
+}
+	
+	/*English  EN in the c input bar*/
+	.search-container  .js-langpicker-label {
+    color: #8ec07c;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+	
+	/*Searach Box */
+	.search-container button {
+    min-height: 44px;
+    margin: 0;
+    border-radius:  38px ;
+    font-size: 16px;
+    font-size: 1.6rem;
+    z-index: 2;
+}
+	/*Search button */
+	.pure-button-primary-progressive{
+    background: #cc241d;
+    border-color: #fb4934;
+		padding : 0rem 3rem  !important ; 
+    line-height: 24px;
+    line-height: 1.4rem;
+		
+		
+}
+	
+	/*Search button  HOVER*/
+		.pure-button-primary-progressive:hover{
+    background: #fb4934;
+    border-color: #fe8019;
+			
+    border-radius:  10px ;
+  transition: border-radius 0.4s ease-in-out;
+
+}
+	
+	
+	
+	
+	/*Inside teh saerch bar recoomandations */
+	div.suggestions-dropdown{
+		
+		background-color:#282828 !important;
+	}
+	
+	
+	/*Suggesttions background */
+.suggestion-link {
+    border-bottom: 1px solid #83a598;
+	
+    
+}
+	
+		/*Suggestions background hover */
+	.suggestion-link:hover{
+		
+		background: #121210 !important ; 
+    border-bottom: 1px solid #83a598;
+	
+    
+}
+	
+	/*Title:of the suggestions*/
+	h3.suggestion-title{
+		
+		color:#b8bb26 !important;
+	}
+	
+	
+/*Read WIkipedia in your language */
+	.lang-list-button {
+    background-color: #16181a !important;
+    display: inline;
+    position: relative;
+    z-index: 1;
+    padding: .6rem 5.2rem !important;
+    outline: 16px solid #b8bb26 !important;
+    outline: 1px solid #b8bb26 !important;
+    border: 1px solid #b8bb26;
+    -moz-border-radius: 2px;
+    border-radius: 8px !important;
+    color: #83a598 !important;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+/* Header 	 */
+	
+/* Header -> Header Top styles 	 */
+	header.vector-header.mw-header{
+
+		background : #282828 !important ; 
+	}
+
+
+	
+/* Background of the Button 	 */
+	div.vector-dropdown.vector-main-menu-dropdown.vector-button-flush-left.vector-button-flush-right{
+		color : #F00 !important ; 
+		background : #3C3836 !important ; 
+		border-radius: 3rem !important ;
+	}
+	
+	a.mw-logo{
+		background-color  : #3C3836 !important ; 
+		border-radius: 2rem !important ; 
+	}
+	
+	
+/*Wikipedia  	 */
+/* 	img.mw-logo-wordmark{
+		background: #282828 !important ; 
+	} */
+	
+	
+
+	body {
+		background-color :#1f1e1d !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+/* 	Input placehodler */
+/* Green Background for the input area 	 */
+	
+	
+	
+	input.cdx-text-input__input{
+	color : #FFD29C !important ; 
+		background-color:  #1D1B1A !important ; 
+		border: solid #514e07 !important ; 
+		border-width: 0.1px !important ; 
+	border-radius: 12rem !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+/* 	Ugly white BG at the back  */
+	.cdx-search-input--has-end-button{
+		border: none  !important ; 
+		 background : none !important ; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+	
+	
+/*Search Button on Top of Wikipedia  	 */
+	.cdx-search-input__end-button.cdx-button {
+		font-weight: 500 !important  ; 
+    background-color: #282828 !important;
+    color: #D5C4A1 !important;
+    border-color: #79740e;
+		padding: 0rem 2rem !important  ; 
+		border-radius: 3rem !important ; 
+
+	
+	}
+	
+/* Hover for search button 	 */
+		.cdx-search-input__end-button.cdx-button:hover{
+		font-weight: 500 !important  ; 
+    color: #FFD29C !important;
+    border-color: #FB4934 !important;
+		border-radius: 8px !important ; 
+		  transition: border-radius 0.32s ease-in-out !important;
+}
+	
+
+	
+	
+	
+	
+/*Left bar styles  	 */
+	
+/*Contents  	 */
+	h2.vector-pinnable-header-label {
+ 
+		color : #FFD29C !important ; 
+		
+		
+		 font-size: 0.8rem !important;
+    border-radius: 1rem !important;
+		
+}
+	
+	
+	
+	
+/*Hide button  	 */
+	.vector-pinnable-header-toggle-button {
+    display: none;
+    border: 0;
+  
+		font-family: "chivo" , monospace !important ; 
+    background-color: #3C3836 !important;
+    color: #FFD29C !important;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.8rem;
+    border-radius: 8px !important;
+}
+	
+	
+		.vector-pinnable-header-toggle-button:hover{
+   
+  
+		font-family: "chivo" , monospace !important ; 
+background-color: #8F3F71!important;
+    color: #EBDBB2!important;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.8rem;
+    border-radius: 8px !important;
+}
+
+	
+	
+	
+/*Side bar styles  for bg  	 */
+	.vector-pinned-container {
+    background-color: #1a1b1d  !important;
+
+
+border-radius: 1rem !important ; 
+}
+	
+	
+	
+/*Side bar drop down  background icon  	 */
+	span.vector-icon.vector-icon--x-small.mw-ui-icon-wikimedia-expand{
+	
+		background-color :  #504945 !important ; 
+		border-radius: 3px !important ; 
+	}
+	
+	
+	
+/*Left side bar lower gradient removed   */
+		div.vector-sticky-pinned-container::after {
+
+			
+			background-image: none !important ;
+
+}
+
+/* Top side bar 	 */
+	.vector-toc .vector-toc-list-item-active > .vector-toc-link .vector-toc-text, .vector-toc .vector-toc-level-1-active:not(.vector-toc-list-item-expanded) > .vector-toc-link .vector-toc-text, .vector-toc .vector-toc-list-item-active.vector-toc-level-1-active > .vector-toc-link .vector-toc-text{
+		color : #79740E !important ; 
+	}
+	
+/* 	Side bar styles  */
+	.vector-toc .vector-toc-text {
+   color : #b8bb26 !important ;
+		
+		text-decoration:  none  !important ; 
+}
+	
+	
+/* Side bar Hover 	 */
+		.vector-toc .vector-toc-text:hover{
+   color : #B8BB26 !important ;
+		
+		 text-decoration:  #EBDBB2 underline !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* RIGHT SIDE BAR */
+
+	.uls-search {
+    background-color: #D5C4A1 !important;
+    padding: 5px 16px;
+    border-bottom: 1px solid #D5C4A1 !important;
+}
+	
+	
+/* 	Language bar which is  insidelanguegsa */
+.uls-languagefilter {
+    background-color: #D5C4A1;
+    border: 0;
+    color: #D5C4A1 !important;
+}
+	
+	
+	
+/* Language links 	 */
+	a.autonym{
+		color : #B8BB26 !important ; 
+		background-color : #1D1B1A !important ; 
+	}
+	
+/* Langugae backgotund side bear menu 	 */
+	.uls-lcd {
+    background-color: #1D1B1A;
+    height: 20em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: auto;
+    padding: 0 16px;
+}
+	
+	
+	#uls-settings-block.uls-settings-block--vector-2022.uls-settings-block--with-add-languages {
+		color : red !important ; 
+    background-color: #1D1B1A !important;
+    border-top: 1px solid #FFD29C!important;
+}
+	
+	
+	
+	
+/* Main language links 	>> ALSO apply TO the search button */
+	.cdx-button:enabled, .cdx-button.cdx-button--fake-button--enabled {
+
+    color: #A89988 !important;
+  
+}
+	
+/* Hover inside the languae side baer 	 */
+	button.cdx-button:hover{
+
+    color: #8EC07C!important;
+  
+}
+
+	
+	
+
+	
+/* SIDE BAR info BOX 	 */
+	
+	
+	th.infobox-above{
+		background-color : #16181A ! important  ; 
+		border-radius: 4rem !important ; 
+	}
+	
+	
+	
+/* Side info box 	 */
+	.infobox{
+  	
+		color : #D5C4A1 !important ; 
+		background-color : #16181A !important ;
+		border-radius: 1rem !important ; 
+}
+	
+	
+	
+/* 	Little bars headings  */
+	th.infobox-header{
+		background-color : #282828 !important ; 
+		border-radius: 6px !important ; 
+	}
+	
+/* Icons heading 	 */
+	th.infobox-label{
+		color : #98971a !important ; 
+	}
+	
+	
+/* Updaed links behind under 	 */
+	.mw-parser-output .ib-youtube-below {
+    color: #689D6A !important;
+}
+	
+/* 	Show button in the side bar  */
+	.mw-collapsible-toggle-default .mw-collapsible-text {
+    color: #FE8019 !important;
+}
+	
+	
+	
+/* Qoutes of the person  on the sides 	 */
+	
+	.mw-parser-output .quotebox {
+background-color: #16181A !important;
+    border: 1px solid #FFD29C !important;
+		border-radius: 9px !important ; 
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 100%;
+}
+
+	
+/*Image container  	 */
+	figure[typeof~="mw:File/Thumb"], figure[typeof~="mw:File/Frame"] {
+    background-color: #16181A;
+  
+  		border : solid #16181A !important ; 
+	
+
+   
+}
+	
+	
+	
+	
+	
+/* TABLE 	 */
+/* TABLE TH 	 */
+	
+	th{
+		color : #427B58 !important ; 
+		background-color : #17191B !important ; 
+	
+	}
+	
+	
+	td{
+		color : #B8BB26 !important ; 
+		background-color : #1D2021 !important ; 
+	}
+	
+	
+	
+	th.infobox-label[scope="row"] {
+  color: #7dc264 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* 	LIST NAMES  */
+	
+	li {
+    color : #fabd2f !important ; 
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* 	Mann Page background color  */
+	
+	.mw-page-container {
+    min-width: 31.25em;
+    max-width: 99.75rem;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+    padding-top: 0.05px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+		 background-color: #1f1e1d !important;
+/*     background-color: #1A1B1D !important; */
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* 	span{
+		color : #FE8019 !important ; 
+	} */
+	
+	
+	
+/* Article talk and other buttons	 */
+	.vector-menu-tabs .mw-list-item.vector-tab-noicon > a, .vector-page-toolbar-container .vector-dropdown.vector-tab-noicon > a, .vector-menu-tabs .mw-list-item .vector-dropdown-label, .vector-page-toolbar-container .vector-dropdown .vector-dropdown-label {
+    color  : #928374 !important  ; 
+}
+	
+	
+/* From Wikipedia the Free encyclopedia text 	 */
+	div#siteSub{
+		color : #928374 !important ; 
+	} 
+	
+	
+	
+/* 	Bold Text  */
+/* Text that is bold 	 */
+	b , strong {
+		color : #fe8019 !important ; 
+	}
+	
+/* Paragraphs , text 	 */
+	p {
+		color : #ebdbb2 !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+/* Front pages Joe Rogan Experience	 */
+	h1{
+		
+		color : #83a598 !important ; 
+		font-family: "Chivo" ,  !important ; 
+		font-weight: 800 !important ;
+	}
+	
+	
+	
+	
+	
+	
+/* Heading before the P thing 	 */
+	span.mw-headline{
+		color : #F57D26 !important ; 
+	}
+
+	
+/* 	Brackers  */
+	
+span.mw-editsection-bracket{
+ 
+    color: #FABD2F !important;
+}
+	
+	
+/* CItations  in the buttom 	 */
+	cite, dfn {
+    color : #F2E5BC !important ; 
+}
+	
+	
+/* 	Citations  */
+	sup{
+		font-family : "chivo" , sans-serif !important ;
+		font-weight: 800 !important ; 
+		color : #FABD2F !important ;
+		border :solid #16181A !important ; 
+		border-width: 1px !important ; 
+		border-radius:  5px !important ;
+	}
+	
+	
+	
+	
+	
+	
+/*Caption under the iamge  	 */
+	figure[typeof~='mw:File/Thumb'] > figcaption, figure[typeof~='mw:File/Frame'] > figcaption {
+    border: 1px solid #FFD29C;
+		border-radius: 5px !important ; 
+    border-top: 0;
+		color : #689D6A ! important; 
+    background-color: #16181A;
+    font-size: 88.4%;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* Hover menus 	inside  */
+	
+	div.mwe-popups-container{
+ 
+		background-color  : #121210 !important ; 
+	}
+
+	
+	
+/* Menu  -> listen to the article 	 */
+	.mw-parser-output .spoken-wikipedia {
+    border: 1px solid #FABD2F !important;
+		border-radius: 8px !important ; 
+		color : #FFD29C !important ;
+    background-color: #1D1B1A;
+    margin: 0.5em 0;
+    padding: 0.2em;
+    line-height: 1.5em;
+    font-size: 90%;
+}
+	
+	
+/* Lower add  on  the page 	 */
+	.mw-parser-output .side-box {
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #FABD2F;
+		border-radius : 7px !important  ; 
+		color : #1D1B1A !important ;
+    font-size: 88%;
+    line-height: 1.25em;
+    background-color: #FFD29C;
+    display: flow-root;
+}
+	
+/* 	category links  */
+	.catlinks {
+    background-color: #1D1B1A;
+    margin-top: 1em;
+    border: 1px solid #FABD2F;
+		border-radius: 9px !important ; 
+    padding: 5px;
+    clear: both;
+}
+	
+	
+	
+	
+	
+	
+	
+	/*Tools bar nagivation*/
+	/*Color  is for the tools text 
+and  the backgrond color is for the  while backgorund of the dialogue box */
+	#right-navigation .vector-dropdown-content {
+  color:#fb4934 !important;
+		background-color:#282828 !important;
+		
+}
+	
+	
+	/*tools dialogue box  , General m Print /export text*/
+	.vector-pinnable-element .vector-menu-heading {
+    color: #83a598;
+    font-weight: normal;
+    cursor: default;
+    padding: 6px 0;
+    margin: 6px 0;
+    border-bottom: 1px solid #504945;
+}
+	/*Lines udnder the side contens and the side bar*/
+	.vector-pinnable-header {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #504945;
+    line-height: 1.6;
+}
+	
+	
+	
+	
+	
+	
+	/*Main menu */
+	
+	/*Left Hand Side main menu dialogue box background color*/
+	.vector-dropdown .vector-dropdown-content {
+    background-color: #282828 !important;
+    box-shadow: 0 2px 6px -1px #3c3836 !important;
+}
+	
+	
+	
+	/*Main Menu Main text*/
+	
+	div.vector-pinnable-header-label{
+		color: #fb4934 !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	/*SVG*/
+	/*ICons*/
+	
+	svg{
+		color: #fabd2f !important ; 
+		fill: white !important ;  
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	/*Wikipeida Search Button */
+	span.cdx-text-input__icon.cdx-text-input__start-icon{
+		background:  #fb4934 !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	/*Main page styles*/
+	/*Wikipedia   main home page  */
+	
+	/*Top bar in the Front page */
+	.mw-parser-output #mp-topbanner {
+    background: #16181a;
+		color: #fe8019 !important ; 
+    border-color: #928374;
+		border-radius: 4px !important  ; 
+}
+	
+
+	
+	
+	/*All the Bottom backgound and More */
+	.mw-parser-output #mp-left , 
+.mw-parser-output #mp-right, 	.mw-parser-output #mp-middle  , .mw-parser-output #mp-lower {
+    
+ 
+		    background: #16181a !important;
+		color: #fe8019 !important ; 
+    border-color: #79740e;
+		border-radius: 4px !important  ; 
+	
+	
+	}
+	
+	/*News  , Fron todays  did you know and On this day on the frist page */
+	h2.mp-h2{
+		background-color:#1d1b1a !important;
+		border: 1px solid #fe8019 !important ; 
+		border-radius: 0.3rem !important ; 
+	}
+	
+	
+	
+	
+	
+/*General styles */
+
+	/*Bold text in the Article */
+	b{
+		
+	font-family: "Linguistics Pro" !important ;
+		font-kerning: normal !important ; 
+		letter-spacing: 0.04em !important;
+	}
+	
+	
+	
+	
+	
+	/* HEADINGS */
+	
+	/*H2 Heading */
+.theme-article .mw-body-content h2 {
+	color: #d79921 !important ; 
+    font-size: 2rem  !important;
+    letter-spacing: 0px !important;
+	/*Not sure what margin does here */
+    margin-bottom: 80px !important;
+    font-family: "Bricolage Grotesque" !important;
+    font-weight: 500 !important;
+}
+	
+	/* H3 Heading*/
+	.theme-article .mw-body-content h3 {
+	color: #fe8019 !important ; 
+    font-size: 1.5rem  !important;
+    letter-spacing: 0px !important;
+	/*Not sure what margin does here */
+    margin-bottom: 80px !important;
+    font-family: "Bricolage Grotesque" !important;
+    font-weight: 500 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		/* 	Links  */
+
+	
+	.mw-body-content a:link,  .mw-body-content a:active, .mw-footer a:link, .mw-footer a:visited, .mw-footer a:active, a, a:link, a:visited, a:active {
+    color: #b8bb26 !important;
+		font-family: "Margon 360 W08 Medium" !important;
+		font-weight: 500 !important  ; 
+		/*Font Size  was set to 1.04 rem for Margon 360 W08 Medium*/
+		font-size:  1.04rem !important ;
+}
+
+	
+	 .mw-body-content a:hover{
+		color : #fabd2f !important ; 
+		transition: color 0.4s ease-in-out !important ; 
+		  background-size: 20px 2px, 0 2px, 100% 2px;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+	}
+	
+	
+	.mw-body-content a:visited{
+		color : #79740e !important ; 
+		text-decoration: none !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+}
+
