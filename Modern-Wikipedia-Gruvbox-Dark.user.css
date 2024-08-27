@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name            Modern Wikipedia dark Try with moern wikipeida
 
@@ -277,11 +278,28 @@
 	
 	
 	
+	/*Fira Mono */
+		
+	/* 
+	
+	Fira Mono font weights:
+  - Fira Mono 400 (Regular)
+  - Fira Mono 500 (Medium)
+  - Fira Mono 700 (Bold)
+*/
 	
 	
-	
-	
-	
+/* fira-mono-regular - latin */
+/* fira-mono-latin-400-normal */
+	/* fira-mono-latin-400-normal */
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff) format('woff'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.ttf) format('truetype');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
 	
 	
 	
@@ -332,7 +350,7 @@
     --box-shadow-color-inverted: #282828 !important;
     --box-shadow-color-transparent: transparent !important;
     --background-color-interactive: #fb4934 !important;
-    --background-color-interactive-subtle: #1d1b1a !important;
+    --background-color-interactive-subtle: #16181a !important;
     --background-color-disabled: #fb4934 !important;
     --background-color-disabled-subtle: #fabd2f !important;
     --background-color-progressive: #fe8019 !important;
@@ -383,8 +401,8 @@
     --background-color-base: #16181a !important;
 		/*side bar options background color checkboxes*/
     --background-color-base-fixed: #282828 !important;
-    --background-color-neutral: #282828 !important;
-    --background-color-neutral-subtle: #1d1b1a !important;
+    --background-color-neutral: #16181a !important;
+    --background-color-neutral-subtle: #16181a !important;
     --background-color-transparent: transparent !important;
     --background-color-bstructive--active: #9d0006 !important;
     --border-color-destructive--focus: #b8bb26 !important;
@@ -412,7 +430,6 @@
     --outline-color-progressive--focus: #fe8019 !important;
 }
 		
-	
 	
 	
 	
@@ -509,8 +526,9 @@
 	/*Note Under the article */
 	div.hatnote.navigation-not-searchable{
 		
-	color: #689d6a !important ; 
-	font-family: "Linguistics Pro" !important ;
+	color: #83a598 !important ; 
+	font-family: "Bricolage Grotesque" !important;
+	font-weight: 400 !important ;
 	}
 	
 	
@@ -605,7 +623,7 @@
 	
 	/*Articles  nmumbers inside the articles */
 	.bookshelf .text {
-    background-color: #1d1b1a;
+    background-color: #16181a;
 		color: #ffd29c !important ; 
 		border-radius: 2rem !important ; 
 		
@@ -823,7 +841,7 @@
 	
 	input.cdx-text-input__input{
 	color : #FFD29C !important ; 
-		background-color:  #1D1B1A !important ; 
+		background-color:  #16181a !important ; 
 		border: solid #514e07 !important ; 
 		border-width: 0.1px !important ; 
 	border-radius: 12rem !important ; 
@@ -994,12 +1012,12 @@ border-radius: 1rem !important ;
 /* Language links 	 */
 	a.autonym{
 		color : #B8BB26 !important ; 
-		background-color : #1D1B1A !important ; 
+		background-color : #16181a !important ; 
 	}
 	
 /* Langugae backgotund side bear menu 	 */
 	.uls-lcd {
-    background-color: #1D1B1A;
+    background-color: #16181a;
     height: 20em;
     overflow-x: hidden;
     overflow-y: auto;
@@ -1010,7 +1028,7 @@ border-radius: 1rem !important ;
 	
 	#uls-settings-block.uls-settings-block--vector-2022.uls-settings-block--with-add-languages {
 		color : red !important ; 
-    background-color: #1D1B1A !important;
+    background-color: #16181a !important;
     border-top: 1px solid #FFD29C!important;
 }
 	
@@ -1049,7 +1067,7 @@ border-radius: 1rem !important ;
 	.infobox{
   	
 		color : #D5C4A1 !important ; 
-		background-color : #16181A !important ;
+		background-color : #17191b !important ;
 		border-radius: 1rem !important ; 
 }
 	
@@ -1104,27 +1122,7 @@ background-color: #16181A !important;
 	
 	
 	
-	
-/* TABLE 	 */
-/* TABLE TH 	 */
-	
-	th{
-		color : #427B58 !important ; 
-		background-color : #17191B !important ; 
-	
-	}
-	
-	
-	td{
-		color : #B8BB26 !important ; 
-		background-color : #1D2021 !important ; 
-	}
-	
-	
-	
-	th.infobox-label[scope="row"] {
-  color: #7dc264 !important;
-}
+
 	
 	
 	
@@ -1141,14 +1139,7 @@ background-color: #16181A !important;
 	
 	
 	
-	
-	
-/* 	LIST NAMES  */
-	
-	li {
-    color : #fabd2f !important ; 
-}
-	
+
 	
 	
 	
@@ -1223,17 +1214,7 @@ background-color: #16181A !important;
 	
 	
 	
-/* 	Bold Text  */
-/* Text that is bold 	 */
-	b , strong {
-		color : #fe8019 !important ; 
-	}
-	
-/* Paragraphs , text 	 */
-	p {
-		color : #ebdbb2 !important ; 
-	}
-	
+
 	
 	
 	
@@ -1279,7 +1260,7 @@ span.mw-editsection-bracket{
 	
 /* 	Citations  */
 	sup{
-		font-family : "chivo" , sans-serif !important ;
+		font-family : "Lora"  !important ;
 		font-weight: 800 !important ; 
 		color : #FABD2F !important ;
 		border :solid #16181A !important ; 
@@ -1291,14 +1272,14 @@ span.mw-editsection-bracket{
 	
 	
 	
-	
+	/*Add Font here */
 /*Caption under the iamge  	 */
 	figure[typeof~='mw:File/Thumb'] > figcaption, figure[typeof~='mw:File/Frame'] > figcaption {
     border: 1px solid #FFD29C;
 		border-radius: 5px !important ; 
     border-top: 0;
-		color : #689D6A ! important; 
-    background-color: #16181A;
+		color : #d79921 ! important; 
+    background-color: #17191b;
     font-size: 88.4%;
 }
 	
@@ -1333,7 +1314,7 @@ span.mw-editsection-bracket{
     border: 1px solid #FABD2F !important;
 		border-radius: 8px !important ; 
 		color : #FFD29C !important ;
-    background-color: #1D1B1A;
+    background-color: #16181a;
     margin: 0.5em 0;
     padding: 0.2em;
     line-height: 1.5em;
@@ -1347,7 +1328,7 @@ span.mw-editsection-bracket{
     box-sizing: border-box;
     border: 1px solid #FABD2F;
 		border-radius : 7px !important  ; 
-		color : #1D1B1A !important ;
+		color : #16181a !important ;
     font-size: 88%;
     line-height: 1.25em;
     background-color: #FFD29C;
@@ -1356,7 +1337,7 @@ span.mw-editsection-bracket{
 	
 /* 	category links  */
 	.catlinks {
-    background-color: #1D1B1A;
+    background-color: #16181a;
     margin-top: 1em;
     border: 1px solid #FABD2F;
 		border-radius: 9px !important ; 
@@ -1501,7 +1482,7 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	/*News  , Fron todays  did you know and On this day on the frist page */
 	h2.mp-h2{
-		background-color:#1d1b1a !important;
+		background-color:#16181a !important;
 		border: 1px solid #fe8019 !important ; 
 		border-radius: 0.3rem !important ; 
 	}
@@ -1512,14 +1493,59 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 /*General styles */
 
+	
+	
+	
+	
+	
+	/*Background for Articles*/
+	/*Body Syles */
+	.mw-body, .parsoid-body{
+		background-color:#16171a !important;
+	}
+	
+	
+	
+	
+	
+	
 	/*Bold text in the Article */
-	b{
+	b  , strong {
 		
 	font-family: "Linguistics Pro" !important ;
 		font-kerning: normal !important ; 
 		letter-spacing: 0.04em !important;
+		color : #fe8019 !important ; 
 	}
 	
+/* Paragraphs , text 	 */
+	p {
+	color : #ebdbb2 !important ; 
+	font-family: "Linguistics Pro" !important ;
+	text-align: justify !important;
+	font-size: 1rem !important ; 
+	}
+	
+	
+/* 	LIST NAMES  */
+	
+	 .mw-body-content li, ol , ul {
+    color : #ffd29c !important ; 
+	font-family: "Linguistics Pro" !important ;
+	font-size: 1rem  !important ; 
+		}
+	
+	.mw-body-content li::marker{
+		color : #fb4934 !important ;
+    font-family: "Bricolage Grotesque" !important;
+	}
+	
+	/*Abbreviations In the Article Color */
+	abbr {
+		color:#fabd2f !important;
+		text-decoration: none !important  ;  
+		
+	}
 	
 	
 	
@@ -1529,7 +1555,7 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	/*H2 Heading */
 .theme-article .mw-body-content h2 {
 	color: #d79921 !important ; 
-    font-size: 2rem  !important;
+    font-size: 1.8rem  !important;
     letter-spacing: 0px !important;
 	/*Not sure what margin does here */
     margin-bottom: 80px !important;
@@ -1540,7 +1566,19 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	/* H3 Heading*/
 	.theme-article .mw-body-content h3 {
 	color: #fe8019 !important ; 
-    font-size: 1.5rem  !important;
+    font-size: 1.4rem  !important;
+    letter-spacing: 0px !important;
+	/*Not sure what margin does here */
+    margin-bottom: 80px !important;
+    font-family: "Bricolage Grotesque" !important;
+    font-weight: 500 !important;
+}
+	
+	
+		/* H3 Heading*/
+	.theme-article .mw-body-content h4 {
+	color: #fb4934 !important ; 
+    font-size: 1.2rem  !important;
     letter-spacing: 0px !important;
 	/*Not sure what margin does here */
     margin-bottom: 80px !important;
@@ -1555,30 +1593,28 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 	
-	
-	
-		/* 	Links  */
+		/*  Article Embedded Links  */
 
-	
+	/*Links Colors and Fonts */
 	.mw-body-content a:link,  .mw-body-content a:active, .mw-footer a:link, .mw-footer a:visited, .mw-footer a:active, a, a:link, a:visited, a:active {
-    color: #b8bb26 !important;
+		color: #b8bb26 !important;
 		font-family: "Margon 360 W08 Medium" !important;
 		font-weight: 500 !important  ; 
 		/*Font Size  was set to 1.04 rem for Margon 360 W08 Medium*/
-		font-size:  1.04rem !important ;
+		font-size:  1rem !important ;
 }
 
-	
+	/*Article links hover */
 	 .mw-body-content a:hover{
-		color : #fabd2f !important ; 
+		color : #fe8019 !important ; 
 		transition: color 0.4s ease-in-out !important ; 
-		  background-size: 20px 2px, 0 2px, 100% 2px;
-  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+		font-family: "Linguistics Pro" !important;
 	}
 	
 	
+	/*Article links Visited  */
 	.mw-body-content a:visited{
-		color : #79740e !important ; 
+		color : #83a598 !important ; 
 		text-decoration: none !important ; 
 	}
 	
@@ -1586,16 +1622,129 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 	
+/*  TABLES	 */
+/* table th 	 */
+	
+	th{
+		color : #98971a !important ; 
+		background-color : #17191b !important ; 
+    font-family: "Bricolage Grotesque" !important;
+		font-optical-sizing: auto !important ; 
+		letter-spacing: 0.03rem !important ;
+		font-weight: 500 !important ; 
+	}
+	
+	
+	td{
+		color : #b8bb26 !important ; 
+		background-color : #1a1b1d !important ; 
+		font-family: "Linguistics Pro" !important;
+	}
+	
+	
+	
+	
+	
+	/*Code Related Styles */
+	
+	/*Code background And color */
+	.mw-highlight pre {
+    -moz-tab-size: 4;
+    tab-size: 4;
+    position: relative;
+    background-color: #1f1e1d !important;
+    color: #f2e5bc !important;
+	font-family: "CommitMono" !important ; 
+	font-size: 0.96rem !important ; 
+		/*Border styles */
+	border: solid 3px #3c3836 !important ;
+	border-radius: 6px !important ;
+		 
+}
+	/*Inline code block */
+	code{
+		color: #8ec07c !important  ; 
+		background-color:#1d1b1a !important;
+		font-family: 'Fira Mono'  !important;
+		font-weight: 600 !important ; 
+		font-style: normal;
+		font-size: 0.9rem !important ; 
+		padding: 0.1rem 1rem !important ;  
+		border: solid 1px #83a598 !important ; 
+		border-radius: 7px !important ; 
+	}
+	
+	
+	/*Highlighted parts  in Code */
+	
+	.mw-highlight .nt  {
+    color: #b8bb26 !important;
+		font-family: 'Fira Mono'  !important;
+		font-weight: 600 !important ; 
+		font-style: normal;
+		font-size: 0.9rem !important ; font-size: 0.96rem !important ; 
+}
+	
+	/*Links in Code Blocks */
+	.mw-highlight .s {
+    color: #fb4934 !important;
+	font-family: 'Fira Mono'  !important;
+	font-weight: 600 !important ; 
+	font-style: normal;
+	font-size: 0.96rem !important ; 
+}
+	
+	/*Highlight in the code block */
+	.mw-highlight .nf {
+    color: #fe8019;
+	font-family: 'Fira Mono'  !important;
+	font-weight: 600 !important ; 
+	font-style: normal;
+}
+	/*Number colors */
+	.mw-highlight .mi {
+    color: #ffd29c;
+	font-family: 'Fira Mono'  !important;
+	font-weight: 600 !important ; 
+	font-style: normal;
+}
+	
+	/*Commands */
+	.mw-highlight .sc {
+    color: #fb4934;
+	font-family: 'Fira Mono'  !important;
+	font-weight: 600 !important ; 
+	font-style: normal;	
+}
+	
+	
+	
+	
+	
+	/*Keyboard Keys */
+	.mw-parser-output .keyboard-key {
+    border: 2px solid #fb4934;
+    border-radius: 0.2em;
+    box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1);
+    background : #1d1b1a !important ; 
+    color: #ffd29c !important;
+    font-family: "Bricolage Grotesque" !important;
+    padding: 0.1em 0.4em !important;
+    font-size: 0.85em;
+}
+	
+	
+	
+	
+.ext-phonos .oo-ui-iconElement-icon {
+  color: #fabd2f !important; /* Replace with your desired color */
+}
 	
 	
 	
 	
 	
 	
-	
-	
-	
-
 
 	
 	
