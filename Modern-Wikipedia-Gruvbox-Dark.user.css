@@ -4,7 +4,7 @@
 
 
 @namespace      github.com/cssusertyles/wikipeida modern
-@version        1.0.0
+@version        1.0.1
 @description    This user style will apply the google chivo font to everything page you visit 
                 I have made some changes in it 
                 this will not change the following 
@@ -473,8 +473,90 @@
 	
 	
 	
+	/*SIDE BAR STYLES*/
+	
+	/*Sidebar text Heading */
+	
+	.wiki-contents-heading {
+    font-family: "Jetbrains Mono" !important; 
+    font-size: 0.9rem ;
+    color:  #98971a !important ;
+    transition: var(--bg-transition);
+    padding: 0.6rem 1rem !important ; 
+    user-select: none;
+}
+	
+	/*Year of text */
+	
+	.wiki-contents li.wiki-contents-selected > a, li.toclevel-1.wiki-contents-selected > a > .toctext {
+    color: #83a598 !important;
+    color: #83a598 !important;
+    color: #83a598 !important;
+		font-family: "Bricolage Grotesque" !important ;  
+    transition: var(--bg-transition);
+}
+	
+	.wiki-contents li.wiki-contents-selected > a, li.toclevel-1.wiki-contents-selected > a > .toctext:hover{
+    color: #98971a !important;
+    color: #98971a !important;
+    color: #98971a !important;
+		font-family: "Bricolage Grotesque" !important ;  
+    transition: var(--bg-transition);
+}
 	
 	
+	/*Side bar headings */
+	
+	li.toclevel-1 > a > .toctext {
+    font-family: "Bricolage Grotesque"!important;
+    font-size: 21px !important;
+    font-size: calc(var(--contents-font-size) + 6px) !important;
+    line-height: 27px !important;
+    line-height: 1.29 !important;
+    letter-spacing: -0.2px !important;
+    padding-bottom: 10px !important;
+    color : #928374  !important;
+    transition: var(--bg-transition);
+}
+	
+	/*Hover for the heading in the side bar */
+	li.toclevel-1 > a > .toctext:hover{
+    font-family: "Bricolage Grotesque"!important;
+    font-size: 21px !important;
+    font-size: calc(var(--contents-font-size) + 6px) !important;
+    line-height: 27px !important;
+    line-height: 1.29 !important;
+    letter-spacing: -0.2px !important;
+    padding-bottom: 10px !important;
+    color : #98971a  !important;
+    transition: var(--bg-transition);
+}
+	
+	
+	/*Side bar text SUb heading */
+	.tocnumber, .toctext {
+    display: table-cell;
+		color: #665c54 !important ;
+		font-family: "Bricolage Grotesque" !important ; 
+    text-decoration: inherit;
+}
+	
+	/*Hover for the sub heading*/
+		.tocnumber, .toctext:hover{
+    display: table-cell;
+		color: #98971a !important ;
+		font-family: "Bricolage Grotesque" !important ; 
+    text-decoration: inherit;
+}
+	
+	
+	/*Color change for the subheadings in the side bar */
+	span.toctext{
+		color: #665c54 !important ;
+		font-family: "Bricolage Grotesque" !important ; 
+	}
+	
+
 	
 	
 	/*Front Main page styles*/
@@ -1744,4 +1826,3 @@ and  the backgrond color is for the  while backgorund of the dialogue box */
 	
 	
 }
-
